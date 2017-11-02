@@ -1,0 +1,145 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<f:Form editable="false">
+		<f:layout>
+			<f:ResponsiveGridLayout labelSpanXL="4" labelSpanL="4" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0"
+				emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false"/>
+		</f:layout>
+		<f:formContainers>
+			<f:FormContainer title="Official Facebook Page">
+				<f:formElements>
+					<f:FormElement>
+						<f:fields>
+							<core:HTML
+								content="&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; data-small-header=&quot;false&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot;&gt;Shri Anupanhalli Maha Lakshmi Temple&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;"></core:HTML>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			
+			<f:FormContainer title="Email">
+				<f:formElements>
+						<f:FormElement>
+						<f:fields>
+							<Text text="anupanahallilakshmi@gmail.com"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			<f:FormContainer title="Address">
+				<f:formElements>
+					<f:FormElement>
+						<f:fields>
+							<Text text="Shri Anupanahalli Mahalakshmi Trust"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement>
+						<f:fields>
+							<Text text="Honnudike"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement>
+						<f:fields>
+							<Text text="Tumkur 572122, Karnataka"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement>
+						<f:fields>
+							<Text text="India"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			<f:FormContainer title="E-Kanike">
+				<f:formElements>
+					<f:FormElement label="Bank Name">
+						<f:fields>
+							<Text text="State Bank of Mysore, Honnudike Branch"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Account Name">
+						<f:fields>
+							<Text text="SRI MAHALAKSHMI TEMPLU TRU"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Account No">
+						<f:fields>
+							<Text text="54053471658"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="IFSC Code">
+						<f:fields>
+							<Text text="SBMY0040238"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			<f:FormContainer title="Trust member">
+				<f:formElements>
+					<f:FormElement label="Name">
+						<f:fields>
+							<Text text="H K Jagadish"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Role">
+						<f:fields>
+							<Text text="Head Member"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Occupation">
+						<f:fields>
+							<Text text="Ex Forest officer, Karnataka state Govt"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Phone">
+						<f:fields>
+							<Text text="9448113664"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			<f:FormContainer title="Archakaru">
+				<f:formElements>
+					<f:FormElement label="Name">
+						<f:fields>
+							<Text text="Rajanna"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Role">
+						<f:fields>
+							<Text text="Pradhana Archakaru"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Phone">
+						<f:fields>
+							<Text text="9008061251"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+			<f:FormContainer title="Website Maintenance">
+				<f:formElements>
+					<f:FormElement label="Name">
+						<f:fields>
+							<Text text="Vinay Hospete Krishna"/>
+						</f:fields>
+					</f:FormElement>
+				<!--	<f:FormElement label="Role">
+						<f:fields>
+							<Text text="Social media Cordinator"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Occupation">
+						<f:fields>
+							<Text text="Software Engineer, SAP, Germany"/>
+						</f:fields>
+					</f:FormElement>-->
+					<f:FormElement label="Email">
+						<f:fields>
+							<Text text="vinay.hk1989@gmail.com"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+		</f:formContainers>
+	</f:Form>
+</core:FragmentDefinition>

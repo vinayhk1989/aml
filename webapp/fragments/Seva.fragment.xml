@@ -1,0 +1,61 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	
+	<List
+		headerText="Sevas to Maha Lakshmi">
+		<items>
+			<ObjectListItem
+				title="Kumkumarchana"
+				number="60"
+				numberUnit="INR">
+			
+				<attributes>
+					<ObjectAttribute text="Including Shri Prasadam" />
+					<ObjectAttribute text="All days" />
+				</attributes>
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="Panchamrutha Abhisheka"
+				number="30"
+				numberUnit="INR">
+			
+				<attributes>
+					<ObjectAttribute text="All days" />
+				</attributes>
+			</ObjectListItem>
+			
+				<ObjectListItem
+				title="Rice Donation for Annadana"
+				number="30"
+				numberUnit="INR">
+			
+				<attributes>
+					<ObjectAttribute text="Per KG" />
+				</attributes>
+			</ObjectListItem>
+			
+				<ObjectListItem
+				title="Shri Navagraha Pooja"
+				number="300"
+				numberUnit="INR">
+			
+				<attributes>
+					<ObjectAttribute text="All Days" />
+				</attributes>
+			</ObjectListItem>
+			
+				<ObjectListItem
+				title="Shri Maha lakshmi Mahatme Parayana purvaka Mahapooja"
+				number="600"
+				numberUnit="INR">
+			
+				<attributes>
+					<ObjectAttribute text="Auspisous days" />
+				</attributes>
+			</ObjectListItem>
+		</items>
+	</List>
+
+</core:FragmentDefinition>

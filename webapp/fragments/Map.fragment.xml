@@ -1,0 +1,5 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<core:HTML content="&lt;div class=&quot;mapouter&quot;&gt;&lt;div class=&quot;gmap_canvas&quot;&gt;&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; id=&quot;gmap_canvas&quot; src=&quot;https://maps.google.com/maps?q=Anupanhalli%20Mahalaxmi%20Temple%2C%20Tumkur%2C%20Karnataka%2C%20India&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=&amp;output=embed&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;"></core:HTML>
+</core:FragmentDefinition>

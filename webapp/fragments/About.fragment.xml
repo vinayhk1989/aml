@@ -1,0 +1,77 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<l:Grid hSpacing="2">
+		<l:content>
+			<Image src="images/AMlakshmi.png" width="100%" height="80%">
+				<layoutData>
+					<l:GridData span="XL3 L3 M6 S12"/>
+				</layoutData>
+			</Image>
+			<VBox>
+				<Text class="sapUiSmallMarginBeginEnd"
+					text="Anupanahalli Maha Lakshmi is the goddess of wealth and prosperity, both material and spiritual. Worshipped as ancestral home godess by several hindus from ancient times especially from Kunchitigas of Eradukere kula. Temple is located at Anupanahalli near Honnudike, Tumkur district, Karnataka."/>
+				<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
+					text=" A special worship is also offered to Lakshmi on the auspicious Varalakshmi vratha festival and on Deepavali night"/>
+				<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
+					text="It is believed that worshipping Anupanahalli Maha Lakshmi on Vara-Lakshmi vratha festival is equivalent to worshipping Ashtalakshmi i.e. the eight Goddesses of Wealth (Sri), Earth (Bhu), Learning (Saraswati), Love (Priti), Fame (Kirti), Peace (Shanti), Pleasure (Tushti) and Strength (Pushti)"/>
+				<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
+					text="On the full moon night following Dasara or Durga Puja, Hindus worship Lakshmi ceremonially at home, pray for her blessings and invite neighbors to attend the puja. It is believed that on this full moon night the goddess herself visits the homes and replenishes the inhabitants with wealth"/>
+				<layoutData>
+					<l:GridData span="XL5 L5 M6 S12"/>
+				</layoutData>
+			</VBox>
+			<VBox>
+				<SlideTile class="sapUiTinyMarginBegin sapUiTinyMarginTop">
+					<tiles>
+						<GenericTile backgroundImage="images/kmp_3.jpg" frameType="TwoByOne">
+							<tileContent>
+								<TileContent footer="August 1, 2017">
+									<content>
+										<NewsContent contentText="Mahalakshmi Kalyana Mantapa is under construction" subheader="Anupanahalli, Honnudike"></NewsContent>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+						<GenericTile backgroundImage="images/kmp_4.jpg" frameType="TwoByOne">
+							<tileContent>
+								<TileContent footer="August 2, 2017">
+									<content>
+										<NewsContent contentText="Mahalakshmi temple trust collecting kanike from all devotees" subheader="Anupanahalli, Honnudike"></NewsContent>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+					</tiles>
+				</SlideTile>
+				<SlideTile class="sapUiTinyMarginBegin sapUiTinyMarginTop">
+					<tiles>
+						<GenericTile backgroundImage="images/kmp_6.jpg" frameType="TwoByOne">
+							<tileContent>
+								<TileContent footer="August 4, 2017">
+									<content>
+										<NewsContent contentText="Mahalakshmi trust welcomes all devotees for UTSAVA 2017" subheader="Anupanahalli, Honnudike"></NewsContent>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+						<GenericTile backgroundImage="images/kmp_5.jpg" frameType="TwoByOne" press="pressOnVratha">
+							<tileContent>
+								<TileContent footer="August 4, 2016">
+									<content>
+										<NewsContent contentText="Vara Maha Lakshmi Vrata - Pooja vidhana"
+										subheader="Anupanahalli, Honnudike"></NewsContent>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+					</tiles>
+				</SlideTile>
+				<layoutData>
+					<l:GridData span="XL4 L4 M6 S12"/>
+				</layoutData>
+			</VBox>
+		</l:content>
+	</l:Grid>
+	<!--
+	<Image src="images/AMlakshmi.png" densityAware="false" width="25%"/>
+-->
+</core:FragmentDefinition>

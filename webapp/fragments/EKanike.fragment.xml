@@ -1,0 +1,41 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<f:Form editable="false">
+		<f:layout>
+			<f:ResponsiveGridLayout labelSpanXL="4" labelSpanL="4" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0"
+				emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false"/>
+		</f:layout>
+		<f:formContainers>
+			<f:FormContainer title="Bank Account Details">
+				<f:formElements>
+					<f:FormElement label="Bank Name">
+						<f:fields>
+							<Text text="State Bank of Mysore, Honnudike Branch"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Account Name">
+						<f:fields>
+							<Text text="SRI MAHALAKSHMI TEMPLU TRU"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="Account No">
+						<f:fields>
+							<Text text="54053471658"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement label="IFSC Code">
+						<f:fields>
+							<Text text="SBMY0040238"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+		</f:formContainers>
+	</f:Form>
+	<VBox class="sapUiSmallMargin">
+		<Text text="Donation (Kanike) can be made online through netbanking or at any SBI Branch"></Text>
+			<Text text=" "></Text>
+		<Text text="OR"></Text>
+			<Text text=" "></Text>
+		<Text text="Donation (Kanike) can also be sent to SRI MAHALAKSHMI TEMPLU TRU through Cheque"></Text>
+	</VBox>
+</core:FragmentDefinition>

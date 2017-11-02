@@ -1,0 +1,41 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<l:Grid hSpacing="2">
+		<l:content>
+			<Image src="images/varalakshmi_vratha.jpg" width="100%" height="80%">
+				<layoutData>
+					<l:GridData span="XL3 L3 M6 S12"/>
+				</layoutData>
+			</Image>
+			<VBox>
+				<Text text="List of Pooja items" class="sapMListHdr"></Text>
+				<Text class="sapUiSmallMarginTop"
+					text="Face of goddess lakshmi, Garland (in odd numbers), Kumkum, Turmeric, Sandal powder, Vibudhi, Mango Leaves, Panjamirtham, Curd, Banana, Milk, Water with spoon, Agarbati, 9 yellow thread, Sambrani, Camphor (Soodam), Small pooja Bell, Prasatham (in Odd Numbers), Small oil lamp., Raw rice, 1/2 cup Raw rice mixed with turmeric (adchathai)"></Text>
+				<Text class="sapUiSmallMarginTop"
+					text="People wake up early in the morning on Friday and take head bath. Traditionally speaking the waking up time for the puja is the brahma muhurtham. Then the designated puja area and house is cleaned well and a beautiful ‘kolam’ or rangoli is drawn on the intended place of puja. "></Text>
+				<layoutData>
+					<l:GridData span="XL9 L9 M6 S12"/>
+				</layoutData>
+			</VBox>
+			<VBox>
+				<Text text="Kalasa Pratisthapana" class="sapMListHdr"></Text>
+				<Text class="sapUiSmallMarginTop"
+					text="Place a banana leaf(Nuni vazha ilai) on top of the rangoli Spread some rice on the banana leaf Place the kalasam on top of the rice.Decorate the kalasam with turmeric and kumkum on all sides Put Coins, one teaspoon of Rice and water inside. Put bangle, lemon, betel leaves with paaku, Thread and black beads (Can use gold/silver or brass kalasam) (This differs from family to family) Then insert some mango leaves (Maavilai kothu)"></Text>
+				<Text class="sapUiSmallMarginTop"
+					text="Now wash the coconut, Apply Turmeric on the coconut. Mix Turmeric powder with water and apply on top of the coconut Place this coconut on top of the kalasam Now fit the lakshmi face on this coconut and start decorating with blouse bit (preferably red or maroon)/pavadai and jewels Decorate lakshmi face with turmeric/kumkum and also some kajal for the eyes. After decoration is over Karpoora aarathi needs to be taken with betel leaves paaku and fruit neivedhyam"></Text>
+				<layoutData>
+					<l:GridData span="XL12 L12 M12 S12"/>
+				</layoutData>
+			</VBox>
+			<VBox>
+				<Text text="Pooja Procedure" class="sapMListHdr"></Text>
+				<Text class="sapUiSmallMarginTop"
+					text=" Decorate lakshmi with a fresh flower lotus and a jewel. Do not make any adjustment to the decorations after this. Thus done place this whole arranged unit at the point where you have drawn the rangoli near the entrance. Soon after setting this up, light a lamp next to the idol and offer something as neivedhyam. On Friday, the Vianyaka pooja is performed requesting Him to take care of any hurdles that may come by. The entire unit is then placed in the spot where the pooja has to be performed. There are specific mantras to be chanted and a procedure to be followed during the pooja. You may find them in books and cassettes available explaining them. Start the pooja as per the family customs. "></Text>
+				<Text class="sapUiSmallMarginTop"
+					text="Finally take aarathi and neivedhyam After the pooja, tamboolam is provided to the sumangalis.They should be invited to the home. In the evening light the lamp and do deeparathani Next day morning do one Neivedhyam and do deeparathanai and remove the kalasam"></Text>
+				<layoutData>
+					<l:GridData span="XL12 L12 M12 S12"/>
+				</layoutData>
+			</VBox>
+		</l:content>
+	</l:Grid>
+</core:FragmentDefinition>

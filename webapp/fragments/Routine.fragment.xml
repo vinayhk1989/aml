@@ -1,0 +1,45 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+<List>
+		<items>
+			<ObjectListItem
+				title="Starting up daily routine">
+				<attributes>
+					<ObjectAttribute text="4:30 AM" />
+				</attributes>
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="Munjane Aarathi">
+				<attributes>
+					<ObjectAttribute text="Before Sunrise" />
+					<ObjectAttribute text="4:30 AM to 6:00AM" />
+				</attributes>
+			</ObjectListItem>
+			
+				<ObjectListItem
+				title="Morning Alankara and Maha pooja">
+				<attributes>
+					<ObjectAttribute text="8:00 AM" />
+				</attributes>
+			</ObjectListItem>
+			
+				<ObjectListItem
+				title="Nayvedya pooja">
+				<attributes>
+					<ObjectAttribute text="9:00 AM" />
+				</attributes>
+			</ObjectListItem>
+			
+				<ObjectListItem
+				title="Sanje sandhya pooja">
+				<attributes>
+					<ObjectAttribute text="After Sunset" />
+					<ObjectAttribute text="6:00 PM to 8:00PM" />
+				</attributes>
+			</ObjectListItem>
+		</items>
+	</List>
+
+</core:FragmentDefinition>

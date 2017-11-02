@@ -1,0 +1,61 @@
+<mvc:View controllerName="com.aml.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m" xmlns:core="sap.ui.core">
+	<App>
+		<pages>
+			<Page showFooter="true" class="amlPage">
+				<customHeader>
+					<Bar class="amlBar">
+						<contentLeft>
+						
+							
+						</contentLeft>
+						<contentMiddle>
+								<Text text="{i18n>title}" class="amlPagetitle sapUiTinyMarginTop"></Text>
+						<!--	<VBox>
+								<Text text="Namaste Mahamaiye, Shri peete sura poojithe" class="sapUiTinyMargin"></Text>
+									<Text text="Shanka chakra gadha hasthe mahalakshmi namostuthe" class="sapUiTinyMargin"></Text>
+							</VBox>-->
+					
+						</contentMiddle>
+						<contentRight>
+							<Link text="English" press="handleLinkPress"/>
+							<Link text="Kannada" press="handleLinkPress"/>
+						</contentRight>
+					</Bar>
+				</customHeader>
+				<content>
+					<IconTabBar id="idIconTabBarNoIcons" expandable="false" class="sapUiResponsiveContentPadding">
+						<items>
+							<IconTabFilter text="About">
+								<core:Fragment id="about" fragmentName="com.aml.fragments.About" type="XML"/>
+							</IconTabFilter>
+							<IconTabFilter text="Seva">
+								<core:Fragment id="seva" fragmentName="com.aml.fragments.Seva" type="XML"/>
+							</IconTabFilter>
+							<IconTabFilter text="Daily Routine">
+								<core:Fragment id="routine" fragmentName="com.aml.fragments.Routine" type="XML"/>
+							</IconTabFilter>
+							<IconTabFilter text="E Kanike">
+								<core:Fragment id="kanike" fragmentName="com.aml.fragments.EKanike" type="XML"/>
+							</IconTabFilter>
+							<IconTabFilter text="How to Reach">
+								<core:Fragment id="map" fragmentName="com.aml.fragments.Map" type="XML"/>
+							</IconTabFilter>
+							<IconTabFilter text="Utsava">
+								<core:Fragment id="utsava" fragmentName="com.aml.fragments.Utsava" type="XML"/>
+							</IconTabFilter>
+							<IconTabFilter text="Contact us">
+								<core:Fragment id="contact" fragmentName="com.aml.fragments.Contact" type="XML"/>
+							</IconTabFilter>
+						</items>
+					</IconTabBar>
+				</content>
+				<footer>
+					<Toolbar>
+						<Text text="© Copyright 2017. Mahalakshmi Trust" class="sapUiSmallMarginBegin"></Text>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
