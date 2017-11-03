@@ -125,21 +125,7 @@
                         </LightBox>
                     </detailBox>
                 </Image>
-                
-                <Image src="images/utsava_9.jpg"
-                       decorative="false"
-                       width="250px"
-                       densityAware="false">
-                    <detailBox>
-                        <LightBox>
-                            <LightBoxItem
-                                    imageSrc="images/utsava_9.jpg"
-                                    alt="Utsava photo could not loaded"
-                                    title="Utsava 2017">
-                            </LightBoxItem>
-                        </LightBox>
-                    </detailBox>
-                </Image>
+           
 		</l:content>
 	</l:Grid>
 
