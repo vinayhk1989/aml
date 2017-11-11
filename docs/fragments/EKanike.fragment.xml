@@ -5,24 +5,24 @@
 				emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false"/>
 		</f:layout>
 		<f:formContainers>
-			<f:FormContainer title="Bank Account Details">
+			<f:FormContainer title="{i18n>accountDetailTxt}">
 				<f:formElements>
-					<f:FormElement label="Bank Name">
+					<f:FormElement label="{i18n>bankNameTxt}">
 						<f:fields>
-							<Text text="State Bank of Mysore, Honnudike Branch"/>
+							<Text text="{i18n>bankAddress}"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="Account Name">
+					<f:FormElement label="{i18n>bankAccountName}">
 						<f:fields>
 							<Text text="SRI MAHALAKSHMI TEMPLU TRU"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="Account No">
+					<f:FormElement label="{i18n>bankAccountNumber}">
 						<f:fields>
 							<Text text="54053471658"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="IFSC Code">
+					<f:FormElement label="{i18n>IFSCCode}">
 						<f:fields>
 							<Text text="SBMY0040238"/>
 						</f:fields>
@@ -32,10 +32,10 @@
 		</f:formContainers>
 	</f:Form>
 	<VBox class="sapUiSmallMargin">
-		<Text text="Donation (Kanike) can be made online through netbanking or at any SBI Branch"></Text>
+		<Text text="{i18n>noteTxt1}"></Text>
 			<Text text=" "></Text>
-		<Text text="OR"></Text>
+		<Text text="{i18n>noteSubTxt}"></Text>
 			<Text text=" "></Text>
-		<Text text="Donation (Kanike) can also be sent to SRI MAHALAKSHMI TEMPLU TRU through Cheque"></Text>
+		<Text text="{i18n>noteTxt1}"></Text>
 	</VBox>
 </core:FragmentDefinition>

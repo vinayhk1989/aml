@@ -5,18 +5,18 @@
 				emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false"/>
 		</f:layout>
 		<f:formContainers>
-			<f:FormContainer title="Official Facebook Page">
+			<f:FormContainer title="{i18n>fbPageHeaderTxt}">
 				<f:formElements>
 					<f:FormElement>
 						<f:fields>
 							<core:HTML
-								content="&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; data-small-header=&quot;false&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot;&gt;Shri Anupanhalli Maha Lakshmi Temple&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;"></core:HTML>
+								content="&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; data-small-header=&quot;false&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot;&gt;Shri Anapanhalli Maha Lakshmi Temple&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;"></core:HTML>
 						</f:fields>
 					</f:FormElement>
 				</f:formElements>
 			</f:FormContainer>
 			
-			<f:FormContainer title="Email">
+			<f:FormContainer title="{i18n>emailLabel}">
 				<f:formElements>
 						<f:FormElement>
 						<f:fields>
@@ -25,115 +25,100 @@
 					</f:FormElement>
 				</f:formElements>
 			</f:FormContainer>
-			<f:FormContainer title="Address">
+			<f:FormContainer title="{i18n>addressLabel}">
 				<f:formElements>
 					<f:FormElement>
 						<f:fields>
-							<Text text="Shri Anupanahalli Mahalakshmi Trust"/>
+							<Text text="{i18n>addressTxt1}"/>
 						</f:fields>
 					</f:FormElement>
 					<f:FormElement>
 						<f:fields>
-							<Text text="Honnudike"/>
+							<Text text="{i18n>addressTxt2}"/>
 						</f:fields>
 					</f:FormElement>
 					<f:FormElement>
 						<f:fields>
-							<Text text="Tumkur 572122, Karnataka"/>
+							<Text text="{i18n>addressTxt3}"/>
 						</f:fields>
 					</f:FormElement>
 					<f:FormElement>
 						<f:fields>
-							<Text text="India"/>
+							<Text text="{i18n>addressTxt4}"/>
 						</f:fields>
 					</f:FormElement>
 				</f:formElements>
 			</f:FormContainer>
-			<f:FormContainer title="E-Kanike">
+			<f:FormContainer title="{i18n>tabEKanike}">
 				<f:formElements>
-					<f:FormElement label="Bank Name">
+					<f:FormElement label="{i18n>bankNameTxt}">
 						<f:fields>
-							<Text text="State Bank of Mysore, Honnudike Branch"/>
+							<Text text="{i18n>bankAddress}"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="Account Name">
+					<f:FormElement label="{i18n>bankAccountName}">
 						<f:fields>
 							<Text text="SRI MAHALAKSHMI TEMPLU TRU"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="Account No">
+					<f:FormElement label="{i18n>bankAccountNumber}">
 						<f:fields>
 							<Text text="54053471658"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="IFSC Code">
+					<f:FormElement label="{i18n>IFSCCode}">
 						<f:fields>
 							<Text text="SBMY0040238"/>
 						</f:fields>
 					</f:FormElement>
 				</f:formElements>
 			</f:FormContainer>
-			<f:FormContainer title="Trust member">
+			<f:FormContainer title="{i18n>trustMemberLabel}">
 				<f:formElements>
-					<f:FormElement label="Name">
+					<f:FormElement label="{i18n>nameLabel}">
 						<f:fields>
-							<Text text="H K Jagadish"/>
+							<Text text="{i18n>trustHeadPersName}"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="Role">
+					<f:FormElement label="{i18n>roleLabel}">
 						<f:fields>
-							<Text text="Head Member"/>
+							<Text text="{i18n>roleTxt1}"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="Occupation">
-						<f:fields>
-							<Text text="Ex Forest officer, Karnataka state Govt"/>
-						</f:fields>
-					</f:FormElement>
-					<f:FormElement label="Phone">
+					<f:FormElement label="{i18n>phoneLabel}">
 						<f:fields>
 							<Text text="9448113664"/>
 						</f:fields>
 					</f:FormElement>
 				</f:formElements>
 			</f:FormContainer>
-			<f:FormContainer title="Archakaru">
+			<f:FormContainer title="{i18n>archakaruLabel}">
 				<f:formElements>
-					<f:FormElement label="Name">
+					<f:FormElement label="{i18n>nameLabel}">
 						<f:fields>
-							<Text text="Rajanna"/>
+							<Text text="{i18n>archakaPersName}"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="Role">
+					<f:FormElement label="{i18n>roleLabel}">
 						<f:fields>
-							<Text text="Pradhana Archakaru"/>
+							<Text text="{i18n>roleTxt2}"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement label="Phone">
+					<f:FormElement label="{i18n>phoneLabel}">
 						<f:fields>
 							<Text text="9008061251"/>
 						</f:fields>
 					</f:FormElement>
 				</f:formElements>
 			</f:FormContainer>
-			<f:FormContainer title="Website Maintenance">
+			<f:FormContainer title="{i18n>websiteLabel}">
 				<f:formElements>
-					<f:FormElement label="Name">
+					<f:FormElement label="{i18n>nameLabel}">
 						<f:fields>
-							<Text text="Vinay Hospete Krishna"/>
+							<Text text="{i18n>websitePersName}"/>
 						</f:fields>
 					</f:FormElement>
-				<!--	<f:FormElement label="Role">
-						<f:fields>
-							<Text text="Social media Cordinator"/>
-						</f:fields>
-					</f:FormElement>
-					<f:FormElement label="Occupation">
-						<f:fields>
-							<Text text="Software Engineer, SAP, Germany"/>
-						</f:fields>
-					</f:FormElement>-->
-					<f:FormElement label="Email">
+					<f:FormElement label="{i18n>emailLabel}">
 						<f:fields>
 							<Text text="vinay.hk1989@gmail.com"/>
 						</f:fields>

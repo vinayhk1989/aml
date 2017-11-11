@@ -18,33 +18,36 @@
 					
 						</contentMiddle>
 						<contentRight>
-							<Link text="English" press="handleLinkPress"/>
-							<Link text="Kannada" press="handleLinkPress"/>
+							<SelectList itemPress="switchLanguage">
+					<core:Item key="kannada" text="{i18n>languageKannada}" />
+					<core:Item key="english" text="{i18n>languageEnglish}" />
+				</SelectList>
+							
 						</contentRight>
 					</Bar>
 				</customHeader>
 				<content>
 					<IconTabBar id="idIconTabBarNoIcons" expandable="false" class="sapUiResponsiveContentPadding">
 						<items>
-							<IconTabFilter text="About">
+							<IconTabFilter text="{i18n>tabAbout}">
 								<core:Fragment id="about" fragmentName="com.aml.fragments.About" type="XML"/>
 							</IconTabFilter>
-							<IconTabFilter text="Seva">
+							<IconTabFilter text="{i18n>tabSeva}">
 								<core:Fragment id="seva" fragmentName="com.aml.fragments.Seva" type="XML"/>
 							</IconTabFilter>
-							<IconTabFilter text="Daily Routine">
+							<IconTabFilter text="{i18n>tabDailyRoutine}">
 								<core:Fragment id="routine" fragmentName="com.aml.fragments.Routine" type="XML"/>
 							</IconTabFilter>
-							<IconTabFilter text="E Kanike">
+							<IconTabFilter text="{i18n>tabEKanike}">
 								<core:Fragment id="kanike" fragmentName="com.aml.fragments.EKanike" type="XML"/>
 							</IconTabFilter>
-							<IconTabFilter text="How to Reach">
+							<IconTabFilter text="{i18n>tabMap}">
 								<core:Fragment id="map" fragmentName="com.aml.fragments.Map" type="XML"/>
 							</IconTabFilter>
-							<IconTabFilter text="Utsava">
+							<IconTabFilter text="{i18n>tabUtsava}">
 								<core:Fragment id="utsava" fragmentName="com.aml.fragments.Utsava" type="XML"/>
 							</IconTabFilter>
-							<IconTabFilter text="Contact us">
+							<IconTabFilter text="{i18n>tabContactUs}">
 								<core:Fragment id="contact" fragmentName="com.aml.fragments.Contact" type="XML"/>
 							</IconTabFilter>
 						</items>
@@ -52,7 +55,7 @@
 				</content>
 				<footer>
 					<Toolbar>
-						<Text text="© Copyright 2017. Mahalakshmi Trust" class="sapUiSmallMarginBegin"></Text>
+						<Text text="{i18n>copyright}" class="sapUiSmallMarginBegin"></Text>
 					</Toolbar>
 				</footer>
 			</Page>
