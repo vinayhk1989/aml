@@ -1,6 +1,6 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"
-], function(Controller) {
+               "sap/ui/core/mvc/Controller"
+               ], function(Controller) {
 	"use strict";
 
 	return Controller.extend("com.aml.controller.Main", {
@@ -23,6 +23,23 @@ sap.ui.define([
 			}
 
 			that.pressDialog.open();
+		},
+
+		switchLanguage: function(oEvent) {
+			var sKey = oEvent.getParameter("item").getKey();
+
+			switch (sKey) {
+			case "kannada":
+				sap.ui.getCore().getConfiguration().setLanguage("kn");
+				break;
+			case "english":
+				sap.ui.getCore().getConfiguration().setLanguage("en");
+				break;
+
+			default:
+				sap.ui.getCore().getConfiguration().setLanguage("en");
+				break;
+			}
 		}
 
 	});

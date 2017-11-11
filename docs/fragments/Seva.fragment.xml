@@ -3,58 +3,40 @@
 	xmlns:core="sap.ui.core">
 	
 	<List
-		headerText="Sevas to Maha Lakshmi">
+		headerText="{i18n>headerTxtSeva}">
 		<items>
 			<ObjectListItem
-				title="Kumkumarchana"
+				title="{i18n>sevaTxt1}"
 				number="60"
 				numberUnit="INR">
 			
 				<attributes>
-					<ObjectAttribute text="Including Shri Prasadam" />
-					<ObjectAttribute text="All days" />
+					<ObjectAttribute text="{i18n>sevaSubText3}" />
+					<ObjectAttribute text="{i18n>sevaSubText1}" />
 				</attributes>
 			</ObjectListItem>
 			
 			<ObjectListItem
-				title="Panchamrutha Abhisheka"
+				title="{i18n>sevaTxt2}"
 				number="30"
 				numberUnit="INR">
 			
 				<attributes>
-					<ObjectAttribute text="All days" />
+					<ObjectAttribute text="{i18n>sevaSubText1}" />
 				</attributes>
 			</ObjectListItem>
 			
 				<ObjectListItem
-				title="Rice Donation for Annadana"
+				title="{i18n>sevaTxt3}"
 				number="30"
 				numberUnit="INR">
 			
 				<attributes>
-					<ObjectAttribute text="Per KG" />
+					<ObjectAttribute text="{i18n>sevaSubText2}" />
 				</attributes>
 			</ObjectListItem>
 			
-				<ObjectListItem
-				title="Shri Navagraha Pooja"
-				number="300"
-				numberUnit="INR">
-			
-				<attributes>
-					<ObjectAttribute text="All Days" />
-				</attributes>
-			</ObjectListItem>
-			
-				<ObjectListItem
-				title="Shri Maha lakshmi Mahatme Parayana purvaka Mahapooja"
-				number="600"
-				numberUnit="INR">
-			
-				<attributes>
-					<ObjectAttribute text="Auspisous days" />
-				</attributes>
-			</ObjectListItem>
+				
 		</items>
 	</List>
 
