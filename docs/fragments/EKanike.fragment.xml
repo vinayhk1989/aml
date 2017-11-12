@@ -33,9 +33,7 @@
 	</f:Form>
 	<VBox class="sapUiSmallMargin">
 		<Text text="{i18n>noteTxt1}"></Text>
-			<Text text=" "></Text>
-		<Text text="{i18n>noteSubTxt}"></Text>
-			<Text text=" "></Text>
-		<Text text="{i18n>noteTxt1}"></Text>
+		<Text text="{i18n>noteSubTxt}" class="sapUiSmallMarginTop"></Text>
+		<Text text="{i18n>noteTxt2}" class="sapUiSmallMarginTop"></Text>
 	</VBox>
 </core:FragmentDefinition>
