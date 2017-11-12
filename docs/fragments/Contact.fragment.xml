@@ -42,11 +42,6 @@
 							<Text text="{i18n>addressTxt3}"/>
 						</f:fields>
 					</f:FormElement>
-					<f:FormElement>
-						<f:fields>
-							<Text text="{i18n>addressTxt4}"/>
-						</f:fields>
-					</f:FormElement>
 				</f:formElements>
 			</f:FormContainer>
 			<f:FormContainer title="{i18n>tabEKanike}">
