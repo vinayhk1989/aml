@@ -1,6 +1,10 @@
-<core:FragmentDefinition
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core">
+	<ScrollContainer
+		height="calc(100% - 10em)"
+		horizontal="false"
+		vertical="true">
 <List>
 		<items>
 			<ObjectListItem
@@ -41,5 +45,5 @@
 			</ObjectListItem>
 		</items>
 	</List>
-
-</core:FragmentDefinition>
+</ScrollContainer>
+</mvc:View>

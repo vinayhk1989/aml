@@ -1,0 +1,32 @@
+<View xmlns="sap.m" controllerName="com.aml.controller.App" height="100%"
+	xmlns:core="sap.ui.core">
+	<Page showHeader="false" enableScrolling="false">
+		<content>
+			<Bar class="amlBar">
+				<contentMiddle>
+					<Text text="{i18n>title}" class="amlPagetitle sapUiTinyMarginTop"></Text>
+				</contentMiddle>
+				<contentRight>
+					<SelectList itemPress="switchLanguage">
+						<core:Item key="kannada" text="{i18n>languageKannada}" />
+						<core:Item key="english" text="{i18n>languageEnglish}" />
+					</SelectList>
+				</contentRight>
+			</Bar>
+			<OverflowToolbar>
+				<Button text="{i18n>tabAbout}" type="Transparent" press="navToAbout" />
+				<Button text="{i18n>tabSeva}" type="Transparent" press="navToSeva" />
+				<Button text="{i18n>tabDailyRoutine}" type="Transparent"
+					press="navToRoutine" />
+				<Button text="{i18n>tabEKanike}" type="Transparent" press="navToKanike" />
+				<Button text="{i18n>tabMap}" type="Transparent" press="navToMap" />
+				<Button text="{i18n>tabUtsava}" type="Transparent" press="navToUtsava" />
+				<Button text="{i18n>tabContactUs}" type="Transparent" press="navToContact" />
+			</OverflowToolbar>
+
+
+			<NavContainer id="rootControl"/>
+		</content>
+	</Page>
+
+</View>

@@ -3,7 +3,8 @@ sap.ui.define([
                ], function(Controller) {
 	"use strict";
 
-	return Controller.extend("com.aml.controller.Main", {
+	return Controller.extend("com.aml.controller.App", {
+		
 		pressOnVratha: function(oEvent) {
 			var that = this;
 			if (!that.pressDialog) {
@@ -24,7 +25,29 @@ sap.ui.define([
 
 			that.pressDialog.open();
 		},
-
+		
+		navToAbout: function() {
+			this.getOwnerComponent().getRouter().navTo("about");
+		},
+		navToSeva: function() {
+			this.getOwnerComponent().getRouter().navTo("seva");
+		},
+		navToRoutine: function() {
+			this.getOwnerComponent().getRouter().navTo("routine");
+		},
+		navToKanike: function() {
+			this.getOwnerComponent().getRouter().navTo("ekanike");
+		},
+		navToMap: function() {
+			this.getOwnerComponent().getRouter().navTo("map");
+		},
+		navToUtsava: function() {
+			this.getOwnerComponent().getRouter().navTo("utsava");
+		},
+		navToContact: function() {
+			this.getOwnerComponent().getRouter().navTo("contact");
+		},
+		
 		switchLanguage: function(oEvent) {
 			var sKey = oEvent.getParameter("item").getKey();
 

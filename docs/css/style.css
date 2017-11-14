@@ -14,13 +14,9 @@
     margin-top: 1.5em;
 }
 
-.amlPage .sapMPageHeader {
+.amlBar {
     height: 6em;
     background-image: url(../images/header.png);
-}
-
-.amlPage>.sapMPageHeader + section {
-    top: 6em;
 }
 
 .amlBar .sapMLnk {
