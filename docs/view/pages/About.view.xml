@@ -1,13 +1,17 @@
-<core:FragmentDefinition xmlns="sap.m"
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="com.aml.controller.App"
 	xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
-	<l:Grid hSpacing="2">
+	<ScrollContainer
+		height="calc(100% - 10em)"
+		horizontal="false"
+		vertical="true">
+					<l:Grid hSpacing="2">
 		<l:content>
-			<Image src="images/AMlakshmi.png" width="100%" height="80%">
+			<Image src="images/utsava_1.jpg" width="100%" height="100%" class="sapUiSmallMarginTop">
 				<layoutData>
 					<l:GridData span="XL3 L3 M6 S12" />
 				</layoutData>
 			</Image>
-			<VBox>
+			<VBox class="sapUiSmallMarginTop">
 				<Text class="sapUiSmallMarginBeginEnd" text="{i18n>descAboutSec1}" />
 				<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
 					text="{i18n>descAboutSec2}" />
@@ -82,5 +86,7 @@
 			</VBox>
 		</l:content>
 	</l:Grid>
+			
+	</ScrollContainer>
 	<!-- <Image src="images/AMlakshmi.png" densityAware="false" width="25%"/> -->
-</core:FragmentDefinition>
+</mvc:View>

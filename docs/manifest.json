@@ -40,7 +40,7 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "com.aml.view.Main",
+			"viewName": "com.aml.view.App",
 			"type": "XML"
 		},
 		"dependencies": {
@@ -67,6 +67,68 @@
 			"css": [{
 				"uri": "css/style.css"
 			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewPath": "com.aml.view.pages",
+				"controlId": "rootControl",
+				"controlAggregation": "pages",
+				"viewType": "XML"
+			},
+			"routes": [{
+				"name": "about",
+				"pattern": "",
+				"target": "about"
+			}, {
+				"name": "contact",
+				"pattern": "contact-us",
+				"target": "contact"
+			}, {
+				"name": "ekanike",
+				"pattern": "kanike",
+				"target": "ekanike"
+			},
+			{
+				"name": "map",
+				"pattern": "map",
+				"target": "map"
+			},{
+				"name": "routine",
+				"pattern": "routine",
+				"target": "routine"
+			},{
+				"name": "seva",
+				"pattern": "seva",
+				"target": "seva"
+			},{
+				"name": "utsava",
+				"pattern": "utsava",
+				"target": "utsava"
+			}],
+			"targets": {
+				"about": {
+					"viewName": "About"
+				},
+				"contact": {
+					"viewName": "Contact"
+				},
+				"ekanike": {
+					"viewName": "EKanike"
+				},
+				"map": {
+					"viewName": "Map"
+				},
+				"routine": {
+					"viewName": "Routine"
+				},
+				"seva": {
+					"viewName": "Seva"
+				},
+				"utsava": {
+					"viewName": "Utsava"
+				}
+			}
 		}
 	}
 }
