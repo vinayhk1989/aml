@@ -13,15 +13,15 @@
 					</SelectList>
 				</contentRight>
 			</Bar>
-			<OverflowToolbar>
-				<Button text="{i18n>tabAbout}" type="Transparent" press="navToAbout" />
-				<Button text="{i18n>tabSeva}" type="Transparent" press="navToSeva" />
-				<Button text="{i18n>tabDailyRoutine}" type="Transparent"
+			<OverflowToolbar id="toolbar">
+				<ToggleButton text="{i18n>tabAbout}" type="Transparent" press="navToAbout" />
+				<ToggleButton text="{i18n>tabSeva}" type="Transparent" press="navToSeva" />
+				<ToggleButton text="{i18n>tabDailyRoutine}" type="Transparent"
 					press="navToRoutine" />
-				<Button text="{i18n>tabEKanike}" type="Transparent" press="navToKanike" />
-				<Button text="{i18n>tabMap}" type="Transparent" press="navToMap" />
-				<Button text="{i18n>tabUtsava}" type="Transparent" press="navToUtsava" />
-				<Button text="{i18n>tabContactUs}" type="Transparent" press="navToContact" />
+				<ToggleButton text="{i18n>tabEKanike}" type="Transparent" press="navToKanike" />
+				<ToggleButton text="{i18n>tabMap}" type="Transparent" press="navToMap" />
+				<ToggleButton text="{i18n>tabUtsava}" type="Transparent" press="navToUtsava" />
+				<ToggleButton text="{i18n>tabContactUs}" type="Transparent" press="navToContact" />
 			</OverflowToolbar>
 
 

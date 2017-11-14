@@ -4,7 +4,7 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("com.aml.controller.App", {
-		
+
 		pressOnVratha: function(oEvent) {
 			var that = this;
 			if (!that.pressDialog) {
@@ -25,29 +25,51 @@ sap.ui.define([
 
 			that.pressDialog.open();
 		},
-		
-		navToAbout: function() {
+
+		navToAbout: function(oEvent) {
 			this.getOwnerComponent().getRouter().navTo("about");
+			this.highlightMenu(oEvent.getSource().getId());
 		},
-		navToSeva: function() {
+		navToSeva: function(oEvent) {
 			this.getOwnerComponent().getRouter().navTo("seva");
+			this.highlightMenu(oEvent.getSource().getId());
 		},
-		navToRoutine: function() {
+		navToRoutine: function(oEvent) {
 			this.getOwnerComponent().getRouter().navTo("routine");
+			this.highlightMenu(oEvent.getSource().getId());
 		},
-		navToKanike: function() {
+		navToKanike: function(oEvent) {
 			this.getOwnerComponent().getRouter().navTo("ekanike");
+			this.highlightMenu(oEvent.getSource().getId());
 		},
-		navToMap: function() {
+		navToMap: function(oEvent) {
 			this.getOwnerComponent().getRouter().navTo("map");
+			this.highlightMenu(oEvent.getSource().getId());
 		},
-		navToUtsava: function() {
+		navToUtsava: function(oEvent) {
 			this.getOwnerComponent().getRouter().navTo("utsava");
+			this.highlightMenu(oEvent.getSource().getId());
 		},
-		navToContact: function() {
+		navToContact: function(oEvent) {
 			this.getOwnerComponent().getRouter().navTo("contact");
+			this.highlightMenu(oEvent.getSource().getId());
 		},
-		
+
+		highlightMenu: function(sButtonId){
+			var oToolbar = this.getView().byId("toolbar");
+			var aButtons = oToolbar.getContent();
+			
+			for (var i = 0; i < aButtons.length; i++) {
+				var oButton = aButtons[i];
+				if(sButtonId === oButton.getId()){
+					oButton.setPressed(true);
+				}else {
+					oButton.setPressed(false);
+				}
+			}
+			
+		},
+
 		switchLanguage: function(oEvent) {
 			var sKey = oEvent.getParameter("item").getKey();
 
@@ -61,7 +83,7 @@ sap.ui.define([
 
 			default:
 				sap.ui.getCore().getConfiguration().setLanguage("en");
-				break;
+			break;
 			}
 		}
 
