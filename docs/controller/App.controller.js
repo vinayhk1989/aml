@@ -71,14 +71,17 @@ sap.ui.define([
 		},
 
 		switchLanguage: function(oEvent) {
-			var sKey = oEvent.getParameter("item").getKey();
+			var sKey = oEvent.getParameter("item").getId();
 
 			switch (sKey) {
-			case "kannada":
+			case this.createId("kannada"):
 				sap.ui.getCore().getConfiguration().setLanguage("kn");
 				break;
-			case "english":
+			case this.createId("english"):
 				sap.ui.getCore().getConfiguration().setLanguage("en");
+				break;
+			case this.createId("hindi"):
+				sap.ui.getCore().getConfiguration().setLanguage("hi");
 				break;
 
 			default:
