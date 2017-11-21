@@ -7,25 +7,38 @@
 					<Text text="{i18n>title}" class="amlPagetitle sapUiTinyMarginTop"></Text>
 				</contentMiddle>
 				<contentRight>
-					<SelectList itemPress="switchLanguage">
-						<core:Item key="kannada" text="{i18n>languageKannada}" />
-						<core:Item key="english" text="{i18n>languageEnglish}" />
-					</SelectList>
+					<MenuButton text="{i18n>language}" class="amlLangButton">
+						<menu>
+							<Menu itemSelected="switchLanguage">
+								<items>
+									<MenuItem id="kannada" text="{i18n>languageKannada}"/>
+									<MenuItem id="english" text="{i18n>languageEnglish}"/>
+									<MenuItem id="hindi" text="{i18n>languageHindi}"/>
+								</items>
+							</Menu>
+						</menu>
+					</MenuButton>
 				</contentRight>
 			</Bar>
 			<OverflowToolbar id="toolbar">
-				<ToggleButton text="{i18n>tabAbout}" type="Transparent" press="navToAbout" />
-				<ToggleButton text="{i18n>tabSeva}" type="Transparent" press="navToSeva" />
+				<ToggleButton text="{i18n>tabAbout}" type="Transparent"
+					press="navToAbout" pressed="true" />
+				<ToggleButton text="{i18n>tabSeva}" type="Transparent"
+					press="navToSeva" />
 				<ToggleButton text="{i18n>tabDailyRoutine}" type="Transparent"
 					press="navToRoutine" />
-				<ToggleButton text="{i18n>tabEKanike}" type="Transparent" press="navToKanike" />
-				<ToggleButton text="{i18n>tabMap}" type="Transparent" press="navToMap" />
-				<ToggleButton text="{i18n>tabUtsava}" type="Transparent" press="navToUtsava" />
-				<ToggleButton text="{i18n>tabContactUs}" type="Transparent" press="navToContact" />
+				<ToggleButton text="{i18n>tabEKanike}" type="Transparent"
+					press="navToKanike" />
+				<ToggleButton text="{i18n>tabMap}" type="Transparent"
+					press="navToMap" />
+				<ToggleButton text="{i18n>tabUtsava}" type="Transparent"
+					press="navToUtsava" />
+				<ToggleButton text="{i18n>tabContactUs}" type="Transparent"
+					press="navToContact" />
 			</OverflowToolbar>
 
 
-			<NavContainer id="rootControl"/>
+			<NavContainer id="rootControl" />
 		</content>
 	</Page>
 
