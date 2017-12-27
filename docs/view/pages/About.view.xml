@@ -29,7 +29,7 @@
 						<GenericTile backgroundImage="images/kmp_6.jpg"
 							frameType="TwoByOne">
 							<tileContent>
-								<TileContent footer="{i18n>messageFooterTxt1}">
+								<TileContent>
 									<content>
 										<NewsContent
 											contentText="{i18n>messageTxt3}"
@@ -41,7 +41,7 @@
 						<GenericTile backgroundImage="images/kmp_5.jpg"
 							frameType="TwoByOne" press="pressOnVratha">
 							<tileContent>
-								<TileContent footer="{i18n>messageFooterTxt1}">
+								<TileContent>
 									<content>
 										<NewsContent contentText="{i18n>messageTxt4}"
 											subheader="{i18n>messageSubTxt1}"></NewsContent>
@@ -56,7 +56,7 @@
 						<GenericTile backgroundImage="images/kmp_3.jpg"
 							frameType="TwoByOne">
 							<tileContent>
-								<TileContent footer="{i18n>messageFooterTxt1}">
+								<TileContent>
 									<content>
 										<NewsContent
 											contentText="{i18n>messageTxt1}"
@@ -68,7 +68,7 @@
 						<GenericTile backgroundImage="images/kmp_4.jpg"
 							frameType="TwoByOne">
 							<tileContent>
-								<TileContent footer="{i18n>messageFooterTxt1}">
+								<TileContent>
 									<content>
 										<NewsContent
 											contentText="{i18n>messageTxt2}"
