@@ -2,170 +2,59 @@
 	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
 	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
 		vertical="true">
-		<f:Form editable="false">
-			<f:layout>
-				<f:ResponsiveGridLayout labelSpanXL="4"
-					labelSpanL="4" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false"
-					emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0"
-					columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false" />
-			</f:layout>
-			<f:formContainers>
 
-				<f:FormContainer title="{i18n>addressLabel}">
-					<f:formElements>
-						<f:FormElement>
-							<f:fields>
-								<Text text="{i18n>addressTxt1}" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement>
-							<f:fields>
-								<Text text="{i18n>addressTxt2}" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement>
-							<f:fields>
-								<Text text="{i18n>addressTxt3}" />
-							</f:fields>
-						</f:FormElement>
-					</f:formElements>
-				</f:FormContainer>
+		<VBox class="sapUiSmallMarginBegin">
+			<items>
+				<core:HTML
+					content="&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; data-small-header=&quot;false&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot;&gt;Shri Anapanhalli Maha Lakshmi Temple&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;"></core:HTML>
+				<Link text="{i18n>mapNavTxt}" class="sapUiSmallMarginTop"
+					emphasized="true"
+					href="https://www.google.co.in/maps/dir/Tumkur,+Karnataka,+India/Anupanhalli+Mahalaxmi+Temple,+Tumakuru,+Karnataka+572122,+India/@13.2676425,77.0468044,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3bb02c3b632e23b9:0xe15fb239e9d737bb!2m2!1d77.1139984!2d13.3391677!1m5!1m1!1s0x3bafd5ecef815e9d:0xb8df6dbb1b149f53!2m2!1d77.12351!2d13.200339!3e0" />
+			</items>
+		</VBox>
 
-				<f:FormContainer title="{i18n>mapHeaderTxt}">
-					<f:formElements>
-						<f:FormElement>
-							<f:fields>
-								<Link text="{i18n>mapNavTxt}" class="sapUiSmallMarginTop"
-									emphasized="true"
-									href="https://www.google.co.in/maps/dir/Tumkur,+Karnataka,+India/Anupanhalli+Mahalaxmi+Temple,+Tumakuru,+Karnataka+572122,+India/@13.2676425,77.0468044,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3bb02c3b632e23b9:0xe15fb239e9d737bb!2m2!1d77.1139984!2d13.3391677!1m5!1m1!1s0x3bafd5ecef815e9d:0xb8df6dbb1b149f53!2m2!1d77.12351!2d13.200339!3e0" />
-							</f:fields>
-						</f:FormElement>
-					</f:formElements>
-				</f:FormContainer>
+		<List>
+			<items>
+				<ObjectListItem title="{i18n>addressLabel}" number="{i18n>emailLabel}"
+					numberUnit="anupanahallilakshmi@gmail.com">
+					<attributes>
+						<ObjectAttribute text="{i18n>addressTxt1}" />
+						<ObjectAttribute text="{i18n>addressTxt2}" />
+						<ObjectAttribute text="{i18n>addressTxt3}" />
+					</attributes>
+				</ObjectListItem>
 
-				<f:FormContainer title="{i18n>railHeaderTxt}">
-					<f:formElements>
-						<f:FormElement>
-							<f:fields>
-								<Text text="{i18n>railTxt1}" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement>
-							<f:fields>
-								<Text text="{i18n>railTxt2}" />
-							</f:fields>
-						</f:FormElement>
-					</f:formElements>
-				</f:FormContainer>
+				<ObjectListItem title="{i18n>railHeaderTxt}" number="{i18n>townHeaderTxt}"
+					numberUnit="{i18n>townTxt}">
+					<attributes>
+						<ObjectAttribute text="{i18n>railTxt1}" />
+						<ObjectAttribute text="{i18n>railTxt2}" />
+						<ObjectAttribute text="{i18n>addressTxt3}" />
+					</attributes>
+				</ObjectListItem>
 
-				<f:FormContainer title="{i18n>townHeaderTxt}">
-					<f:formElements>
-						<f:FormElement>
-							<f:fields>
-								<Text text="{i18n>townTxt}" />
-							</f:fields>
-						</f:FormElement>
-					</f:formElements>
-				</f:FormContainer>
+				<ObjectListItem title="{i18n>trustMemberLabel}"
+					number="{i18n>roleTxt1}" numberUnit="{i18n>roleLabel}">
+					<attributes>
+						<ObjectAttribute text="{i18n>trustHeadPersName}" />
+					</attributes>
+				</ObjectListItem>
 
+				<ObjectListItem title="{i18n>archakaruLabel}" number="{i18n>roleTxt2}"
+					numberUnit="9008061251">
+					<attributes>
+						<ObjectAttribute text="{i18n>archakaPersName}" />
+					</attributes>
+				</ObjectListItem>
 
-				<f:FormContainer title="{i18n>fbPageHeaderTxt}">
-					<f:formElements>
-						<f:FormElement>
-							<f:fields>
-								<core:HTML
-									content="&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; data-small-header=&quot;false&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot;&gt;Shri Anapanhalli Maha Lakshmi Temple&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;"></core:HTML>
-							</f:fields>
-						</f:FormElement>
-					</f:formElements>
-				</f:FormContainer>
+				<ObjectListItem title="{i18n>websiteLabel}">
+					<attributes>
+						<ObjectAttribute text="{i18n>websitePersName}" />
+					</attributes>
+				</ObjectListItem>
 
-				<f:FormContainer title="{i18n>emailLabel}">
-					<f:formElements>
-						<f:FormElement>
-							<f:fields>
-								<Text text="anupanahallilakshmi@gmail.com" />
-							</f:fields>
-						</f:FormElement>
-					</f:formElements>
-				</f:FormContainer>
+			</items>
+		</List>
 
-
-				<f:FormContainer title="{i18n>tabEKanike}">
-					<f:formElements>
-						<f:FormElement label="{i18n>bankNameTxt}">
-							<f:fields>
-								<Text text="{i18n>bankAddress}" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement label="{i18n>bankAccountName}">
-							<f:fields>
-								<Text text="SRI MAHALAKSHMI TEMPLU TRU" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement label="{i18n>bankAccountNumber}">
-							<f:fields>
-								<Text text="54053471658" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement label="{i18n>IFSCCode}">
-							<f:fields>
-								<Text text="SBMY0040238" />
-							</f:fields>
-						</f:FormElement>
-					</f:formElements>
-				</f:FormContainer>
-				<f:FormContainer title="{i18n>trustMemberLabel}">
-					<f:formElements>
-						<f:FormElement label="{i18n>nameLabel}">
-							<f:fields>
-								<Text text="{i18n>trustHeadPersName}" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement label="{i18n>roleLabel}">
-							<f:fields>
-								<Text text="{i18n>roleTxt1}" />
-							</f:fields>
-						</f:FormElement>
-						<!-- <f:FormElement label="{i18n>phoneLabel}"> <f:fields> <Text text="9448113664"/> 
-							</f:fields> </f:FormElement> -->
-
-					</f:formElements>
-				</f:FormContainer>
-				<f:FormContainer title="{i18n>archakaruLabel}">
-					<f:formElements>
-						<f:FormElement label="{i18n>nameLabel}">
-							<f:fields>
-								<Text text="{i18n>archakaPersName}" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement label="{i18n>roleLabel}">
-							<f:fields>
-								<Text text="{i18n>roleTxt2}" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement label="{i18n>phoneLabel}">
-							<f:fields>
-								<Text text="9008061251" />
-							</f:fields>
-						</f:FormElement>
-					</f:formElements>
-				</f:FormContainer>
-				<f:FormContainer title="{i18n>websiteLabel}">
-					<f:formElements>
-						<f:FormElement label="{i18n>nameLabel}">
-							<f:fields>
-								<Text text="{i18n>websitePersName}" />
-							</f:fields>
-						</f:FormElement>
-						<f:FormElement label="{i18n>emailLabel}">
-							<f:fields>
-								<Text text="vinay.hk1989@gmail.com" />
-							</f:fields>
-						</f:FormElement>
-					</f:formElements>
-				</f:FormContainer>
-			</f:formContainers>
-		</f:Form>
 	</ScrollContainer>
 </mvc:View>
