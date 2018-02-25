@@ -11,10 +11,10 @@
 						<menu>
 							<Menu itemSelected="switchLanguage">
 								<items>
-									<MenuItem id="dummy" text=" "/>
-									<MenuItem id="kannada" text="{i18n>languageKannada}"/>
-									<MenuItem id="english" text="{i18n>languageEnglish}"/>
-									<MenuItem id="hindi" text="{i18n>languageHindi}"/>
+									<MenuItem id="dummy" text=" " />
+									<MenuItem id="kannada" text="{i18n>languageKannada}" />
+									<MenuItem id="english" text="{i18n>languageEnglish}" />
+									<MenuItem id="hindi" text="{i18n>languageHindi}" />
 								</items>
 							</Menu>
 						</menu>
@@ -24,18 +24,20 @@
 			<OverflowToolbar id="toolbar">
 				<ToggleButton text="{i18n>tabAbout}" type="Transparent"
 					press="navToAbout" pressed="true" />
-				<ToggleButton text="{i18n>tabSeva}" type="Transparent"
-					press="navToSeva" />
-				<ToggleButton text="{i18n>tabDailyRoutine}" type="Transparent"
-					press="navToRoutine" />
-				<ToggleButton text="{i18n>tabEKanike}" type="Transparent"
-					press="navToKanike" />
-				<ToggleButton text="{i18n>tabMap}" type="Transparent"
-					press="navToMap" />
 				<ToggleButton text="{i18n>tabUtsava}" type="Transparent"
 					press="navToUtsava" />
 				<ToggleButton text="{i18n>tabContactUs}" type="Transparent"
 					press="navToContact" />
+				<ToggleButton text="{i18n>tabEKanike}" type="Transparent"
+					press="navToKanike" />
+				<ToggleButton text="{i18n>tabSeva}" type="Transparent"
+					press="navToSeva" />
+				<ToggleButton text="{i18n>tabMap}" type="Transparent"
+					press="navToMap" />
+				<ToggleButton text="{i18n>tabDailyRoutine}" type="Transparent"
+					press="navToRoutine" />
+
+
 			</OverflowToolbar>
 
 
