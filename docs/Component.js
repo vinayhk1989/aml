@@ -24,6 +24,8 @@ sap.ui.define([
 			this.setModel(models.createDeviceModel(), "device");
 			
 			this.getRouter().initialize();
+			
+			sap.ui.getCore().getConfiguration().setLanguage("kn");
 		}
 	});
 });
