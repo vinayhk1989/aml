@@ -17,8 +17,6 @@
 					text="{i18n>descAboutSec2}" />
 				<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
 					text="{i18n>descAboutSec3}" />
-				<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
-					text="{i18n>descAboutSec4}" />
 				<layoutData>
 					<l:GridData span="XL5 L5 M6 S12" />
 				</layoutData>

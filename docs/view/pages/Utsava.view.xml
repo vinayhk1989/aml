@@ -5,13 +5,12 @@
 		<List>
 			<items>
 				<ObjectListItem title="{i18n>utsavaMurthyReg}"
-					number="2,100" numberUnit="INR">
+					number="₹2,100">
 					<attributes>
 						<ObjectAttribute text="{i18n>utsavaMurthyRegSubTxt}" />
 					</attributes>
 				</ObjectListItem>
-				<ObjectListItem title="{i18n>utsavaTemple}" number="10,000"
-					numberUnit="INR">
+				<ObjectListItem title="{i18n>utsavaTemple}" number="₹10,000">
 					<attributes>
 						<ObjectAttribute text="{i18n>utsavaTempleSubTxt}" />
 					</attributes>

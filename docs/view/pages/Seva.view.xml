@@ -10,8 +10,7 @@
 		<items>
 		<ObjectListItem
 				title="{i18n>sevaAbhisheka}"
-				number="1001"
-				numberUnit="INR">
+				number="₹1,001">
 				<attributes>
 					<ObjectAttribute text="{i18n>sevaAbhishekaItems}" />
 					<ObjectAttribute text="{i18n>sevaSpecialOccasion}" />
@@ -20,8 +19,7 @@
 			
 			<ObjectListItem
 				title="{i18n>sevaButter}"
-				number="2000"
-				numberUnit="INR">		
+				number="₹2,000">		
 				<attributes>
 					<ObjectAttribute text="{i18n>sevaSpecialOccasion}" />
 				</attributes>
@@ -29,8 +27,7 @@
 			
 			<ObjectListItem
 				title="{i18n>sevaArishina}"
-				number="500"
-				numberUnit="INR">	
+				number="₹500">	
 				<attributes>
 					<ObjectAttribute text="{i18n>sevaSubText1}" />
 				</attributes>
@@ -38,8 +35,7 @@
 			
 			<ObjectListItem
 				title="{i18n>sevaArchana}"
-				number="50"
-				numberUnit="INR">
+				number="₹50">
 				<attributes>
 					<ObjectAttribute text="{i18n>sevaSubText1}" />
 				</attributes>
@@ -47,8 +43,7 @@
 			
 			<ObjectListItem
 				title="{i18n>sevaArathi}"
-				number="25"
-				numberUnit="INR">
+				number="₹25">
 				<attributes>
 					<ObjectAttribute text="{i18n>sevaSubText1}" />
 				</attributes>
