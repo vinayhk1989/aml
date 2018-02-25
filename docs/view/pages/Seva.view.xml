@@ -8,37 +8,51 @@
 	<List
 		headerText="{i18n>headerTxtSeva}">
 		<items>
-			<ObjectListItem
-				title="{i18n>sevaTxt1}"
-				number="60"
+		<ObjectListItem
+				title="{i18n>sevaAbhisheka}"
+				number="1001"
 				numberUnit="INR">
-			
 				<attributes>
-					<ObjectAttribute text="{i18n>sevaSubText3}" />
+					<ObjectAttribute text="{i18n>sevaAbhishekaItems}" />
+					<ObjectAttribute text="{i18n>sevaSpecialOccasion}" />
+				</attributes>
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="{i18n>sevaButter}"
+				number="2000"
+				numberUnit="INR">		
+				<attributes>
+					<ObjectAttribute text="{i18n>sevaSpecialOccasion}" />
+				</attributes>
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="{i18n>sevaArishina}"
+				number="500"
+				numberUnit="INR">	
+				<attributes>
 					<ObjectAttribute text="{i18n>sevaSubText1}" />
 				</attributes>
 			</ObjectListItem>
 			
 			<ObjectListItem
-				title="{i18n>sevaTxt2}"
-				number="30"
+				title="{i18n>sevaArchana}"
+				number="50"
 				numberUnit="INR">
-			
 				<attributes>
 					<ObjectAttribute text="{i18n>sevaSubText1}" />
 				</attributes>
 			</ObjectListItem>
 			
-				<ObjectListItem
-				title="{i18n>sevaTxt3}"
-				number="30"
+			<ObjectListItem
+				title="{i18n>sevaArathi}"
+				number="25"
 				numberUnit="INR">
-			
 				<attributes>
-					<ObjectAttribute text="{i18n>sevaSubText2}" />
+					<ObjectAttribute text="{i18n>sevaSubText1}" />
 				</attributes>
 			</ObjectListItem>
-			
 				
 		</items>
 	</List>

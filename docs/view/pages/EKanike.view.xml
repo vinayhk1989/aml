@@ -30,7 +30,7 @@ xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"
 					</f:FormElement>
 					<f:FormElement label="{i18n>IFSCCode}">
 						<f:fields>
-							<Text text="SBMY0040238"/>
+							<Text text="SBIN0040238"/>
 						</f:fields>
 					</f:FormElement>
 				</f:formElements>

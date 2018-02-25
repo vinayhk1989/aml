@@ -85,7 +85,7 @@ sap.ui.define([
 				break;
 
 			default:
-				sap.ui.getCore().getConfiguration().setLanguage("en");
+				sap.ui.getCore().getConfiguration().setLanguage("kn");
 			break;
 			}
 		}
