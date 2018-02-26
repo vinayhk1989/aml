@@ -1,0 +1,71 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" 
+	xmlns:core="sap.ui.core">
+	<ScrollContainer
+		height="calc(100% - 10em)"
+		horizontal="false"
+		vertical="true">
+		<HBox>
+				<Image src="images/jagadish.png" decorative="false" width="150px"
+					height="150px" densityAware="false" class="sapUiSmallMargin">
+				</Image>
+			</HBox>
+	<List>
+		<items>
+		<ObjectListItem
+				title="H K Jagadish"
+				number="President">
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="C Krishna Murthy"
+				number="Chairman">
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="A Hanumantha Raju"
+				number="Vice President">
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="K V Maruthi"
+				number="Secretary">
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="G Bylanjeneya"
+				number="Joint Secretary">
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="Gopal Krishna"
+				number="Accountant">
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="H M Hanumanthe Gowda"
+				number="Group Secretary">
+			</ObjectListItem>
+			
+			<ObjectListItem
+				title="Other Members">
+				<attributes>
+					<ObjectAttribute text="Suvarnamma" />
+					<ObjectAttribute text="S Ganga Hanumaiah" />
+					<ObjectAttribute text="H K Malanna" />
+					<ObjectAttribute text="T M Rajannna" />
+					<ObjectAttribute text="Ramanjeneya" />
+					<ObjectAttribute text="K V Raghu" />
+					<ObjectAttribute text="Lakshmi Kantha" />
+					<ObjectAttribute text="H C Lakshmi Pathi" />
+					<ObjectAttribute text="Malleshappa" />
+					<ObjectAttribute text="Manjula Ashwathaya" />
+					<ObjectAttribute text="R Manjunatha" />
+					<ObjectAttribute text="Lakshmi Narayana" />
+				</attributes>
+			</ObjectListItem>
+				
+		</items>
+	</List>
+</ScrollContainer>
+</mvc:View>

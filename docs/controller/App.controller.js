@@ -54,6 +54,11 @@ sap.ui.define([
 			this.getOwnerComponent().getRouter().navTo("contact");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
+		
+		navToTrust: function(oEvent) {
+			this.getOwnerComponent().getRouter().navTo("trust");
+			this.highlightMenu(oEvent.getSource().getId());
+		},
 
 		highlightMenu: function(sButtonId){
 			var oToolbar = this.getView().byId("toolbar");

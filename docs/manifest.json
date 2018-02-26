@@ -105,6 +105,10 @@
 				"name": "utsava",
 				"pattern": "utsava",
 				"target": "utsava"
+			},{
+				"name": "trust",
+				"pattern": "trust",
+				"target": "trust"
 			}],
 			"targets": {
 				"about": {
@@ -127,6 +131,9 @@
 				},
 				"utsava": {
 					"viewName": "Utsava"
+				},
+				"trust": {
+					"viewName": "Trust"
 				}
 			}
 		}
