@@ -36,6 +36,8 @@
 					press="navToMap" />
 				<ToggleButton text="{i18n>tabDailyRoutine}" type="Transparent"
 					press="navToRoutine" />
+					<ToggleButton text="{i18n>tabTrust}" type="Transparent"
+					press="navToTrust" />
 
 
 			</OverflowToolbar>
