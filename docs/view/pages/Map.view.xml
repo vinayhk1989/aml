@@ -1,10 +1,60 @@
-<mvc:View
-	xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
-	xmlns:core="sap.ui.core">
-	<ScrollContainer
-		height="calc(100% - 10em)"
-		horizontal="false"
-		vertical="true">
-	<core:HTML content="&lt;div class=&quot;mapouter&quot;&gt;&lt;div class=&quot;gmap_canvas&quot;&gt;&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; id=&quot;gmap_canvas&quot; src=&quot;https://maps.google.com/maps?q=Anupanhalli%20Mahalaxmi%20Temple%2C%20Tumkur%2C%20Karnataka%2C%20India&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=&amp;output=embed&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;"></core:HTML>
-</ScrollContainer>
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core">
+	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
+		xmlns:l="sap.ui.layout" vertical="true">
+
+		<l:Grid hSpacing="2">
+			<l:content>
+
+				<VBox class="sapUiSmallMarginBegin">
+
+					<List>
+
+						<items>
+							<ObjectListItem title="{i18n>addressLabel}">
+								<attributes>
+									<ObjectAttribute text="{i18n>addressTxt1}" />
+									<ObjectAttribute text="{i18n>addressTxt2}" />
+									<ObjectAttribute text="{i18n>addressTxt3}" />
+								</attributes>
+							</ObjectListItem>
+							<ObjectListItem title="{i18n>howFardistance}">
+								<attributes>
+									<ObjectAttribute text="{i18n>distanceHonnudike}" />
+									<ObjectAttribute text="{i18n>distanceKudur}" />
+									<ObjectAttribute text="{i18n>distanceSolur}" />
+									<ObjectAttribute text="{i18n>distanceTumkur}" />
+									<ObjectAttribute text="{i18n>distanceDabaspete}" />
+									<ObjectAttribute text="{i18n>distanceGubbi}" />
+								</attributes>
+							</ObjectListItem>
+							<ObjectListItem title="{i18n>railHeaderTxt}">
+								<attributes>
+									<ObjectAttribute text="{i18n>railTxt1}" />
+									<ObjectAttribute text="{i18n>railTxt2}" />
+								</attributes>
+							</ObjectListItem>
+						</items>
+					</List>
+					<layoutData>
+						<l:GridData span="XL6 L6 M6 S12" />
+					</layoutData>
+				</VBox>
+				<VBox>
+					<Link text="{i18n>mapNavTxt}" class="sapUiSmallMarginTop"
+						emphasized="true"
+						href="https://www.google.co.in/maps/dir/Tumkur,+Karnataka,+India/Anupanhalli+Mahalaxmi+Temple,+Tumakuru,+Karnataka+572122,+India/@13.2676425,77.0468044,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3bb02c3b632e23b9:0xe15fb239e9d737bb!2m2!1d77.1139984!2d13.3391677!1m5!1m1!1s0x3bafd5ecef815e9d:0xb8df6dbb1b149f53!2m2!1d77.12351!2d13.200339!3e0" />
+
+					<Image src="images/Map.png" press="" class="sapUiSmallMarginTop">
+
+					</Image>
+					<layoutData>
+						<l:GridData span="XL6 L6 M6 S12" />
+					</layoutData>
+				</VBox>
+			</l:content>
+		</l:Grid>
+
+
+
+	</ScrollContainer>
 </mvc:View>

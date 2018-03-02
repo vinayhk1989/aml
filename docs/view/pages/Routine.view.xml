@@ -1,49 +1,40 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m"
-	xmlns:core="sap.ui.core">
-	<ScrollContainer
-		height="calc(100% - 10em)"
-		horizontal="false"
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
 		vertical="true">
-<List>
-		<items>
-			<ObjectListItem
-				title="{i18n>routineTxt1}">
-				<attributes>
-					<ObjectAttribute text="4:30 AM" />
-				</attributes>
-			</ObjectListItem>
-			
-			<ObjectListItem
-				title="{i18n>routineTxt2}">
-				<attributes>
-					<ObjectAttribute text="{i18n>routineSubTxt1}" />
-					<ObjectAttribute text="4:30 AM - 6:00AM" />
-				</attributes>
-			</ObjectListItem>
-			
-				<ObjectListItem
-				title="{i18n>routineTxt3}">
-				<attributes>
-					<ObjectAttribute text="8:00 AM" />
-				</attributes>
-			</ObjectListItem>
-			
-				<ObjectListItem
-				title="{i18n>routineTxt4}">
-				<attributes>
-					<ObjectAttribute text="9:00 AM" />
-				</attributes>
-			</ObjectListItem>
-			
-				<ObjectListItem
-				title="{i18n>routineTxt5}">
-				<attributes>
-					<ObjectAttribute text="{i18n>routineSubTxt1}" />
-					<ObjectAttribute text="6:00 PM - 8:00PM" />
-				</attributes>
-			</ObjectListItem>
-		</items>
-	</List>
-</ScrollContainer>
+		<List>
+			<items>
+				<ObjectListItem title="{i18n>routineTxt1}">
+					<attributes>
+						<ObjectAttribute text="4:30 AM" />
+					</attributes>
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>routineTxt2}">
+					<attributes>
+						<ObjectAttribute text="{i18n>routineSubTxt1}" />
+						<ObjectAttribute text="4:30 AM - 6:00AM" />
+					</attributes>
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>routineTxt3}">
+					<attributes>
+						<ObjectAttribute text="8:00 AM" />
+					</attributes>
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>routineTxt4}">
+					<attributes>
+						<ObjectAttribute text="9:00 AM" />
+					</attributes>
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>routineTxt5}">
+					<attributes>
+						<ObjectAttribute text="{i18n>routineSubTxt1}" />
+						<ObjectAttribute text="6:00 PM - 8:00PM" />
+					</attributes>
+				</ObjectListItem>
+			</items>
+		</List>
+	</ScrollContainer>
 </mvc:View>
