@@ -4,6 +4,45 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("com.aml.controller.App", {
+		
+		onInit: function() {
+			this.oRouter = this.getOwnerComponent().getRouter();
+			this.oRouter.attachRoutePatternMatched(this.onRouterMatch, this);
+		},
+		
+		onRouterMatch: function(oEvent) {
+			var sPattern = oEvent.getParameter("name");
+			
+			switch (sPattern) {
+			case "about":
+				this.highlightMenu(this.createId("menu1"));
+				break;
+			case "utsava":
+				this.highlightMenu(this.createId("menu2"));
+				break;
+			case "contact":
+				this.highlightMenu(this.createId("menu3"));
+				break;
+			case "ekanike":
+				this.highlightMenu(this.createId("menu4"));
+				break;
+			case "seva":
+				this.highlightMenu(this.createId("menu5"));
+				break;
+			case "map":
+				this.highlightMenu(this.createId("menu6"));
+				break;
+			case "routine":
+				this.highlightMenu(this.createId("menu7"));
+				break;
+			case "trust":
+				this.highlightMenu(this.createId("menu8"));
+				break;
+
+			default:
+				break;
+			}
+		},
 
 		pressOnVratha: function(oEvent) {
 			var that = this;
@@ -27,52 +66,54 @@ sap.ui.define([
 		},
 
 		navToAbout: function(oEvent) {
-			this.getOwnerComponent().getRouter().navTo("about");
+			this.oRouter.navTo("about");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
 		navToSeva: function(oEvent) {
-			this.getOwnerComponent().getRouter().navTo("seva");
+			this.oRouter.navTo("seva");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
 		navToRoutine: function(oEvent) {
-			this.getOwnerComponent().getRouter().navTo("routine");
+			this.oRouter.navTo("routine");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
 		navToKanike: function(oEvent) {
-			this.getOwnerComponent().getRouter().navTo("ekanike");
+			this.oRouter.navTo("ekanike");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
 		navToMap: function(oEvent) {
-			this.getOwnerComponent().getRouter().navTo("map");
+			this.oRouter.navTo("map");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
 		navToUtsava: function(oEvent) {
-			this.getOwnerComponent().getRouter().navTo("utsava");
+			this.oRouter.navTo("utsava");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
 		navToContact: function(oEvent) {
-			this.getOwnerComponent().getRouter().navTo("contact");
+			this.oRouter.navTo("contact");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
 		
 		navToTrust: function(oEvent) {
-			this.getOwnerComponent().getRouter().navTo("trust");
+			this.oRouter.navTo("trust");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
 
 		highlightMenu: function(sButtonId){
 			var oToolbar = this.getView().byId("toolbar");
-			var aButtons = oToolbar.getContent();
 			
-			for (var i = 0; i < aButtons.length; i++) {
-				var oButton = aButtons[i];
-				if(sButtonId === oButton.getId()){
-					oButton.setPressed(true);
-				}else {
-					oButton.setPressed(false);
+			if(oToolbar){
+				var aButtons = oToolbar.getContent();
+				
+				for (var i = 0; i < aButtons.length; i++) {
+					var oButton = aButtons[i];
+					if(sButtonId === oButton.getId()){
+						oButton.setPressed(true);
+					}else {
+						oButton.setPressed(false);
+					}
 				}
 			}
-			
 		},
 
 		switchLanguage: function(oEvent) {

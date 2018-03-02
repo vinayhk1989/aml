@@ -22,21 +22,21 @@
 				</contentRight>
 			</Bar>
 			<OverflowToolbar id="toolbar">
-				<ToggleButton text="{i18n>tabAbout}" type="Transparent"
+				<ToggleButton id="menu1" text="{i18n>tabAbout}" type="Transparent"
 					press="navToAbout" pressed="true" />
-				<ToggleButton text="{i18n>tabUtsava}" type="Transparent"
+				<ToggleButton id="menu2" text="{i18n>tabUtsava}" type="Transparent"
 					press="navToUtsava" />
-				<ToggleButton text="{i18n>tabContactUs}" type="Transparent"
+				<ToggleButton id="menu3" text="{i18n>tabContactUs}" type="Transparent"
 					press="navToContact" />
-				<ToggleButton text="{i18n>tabEKanike}" type="Transparent"
+				<ToggleButton id="menu4" text="{i18n>tabEKanike}" type="Transparent"
 					press="navToKanike" />
-				<ToggleButton text="{i18n>tabSeva}" type="Transparent"
+				<ToggleButton id="menu5" text="{i18n>tabSeva}" type="Transparent"
 					press="navToSeva" />
-				<ToggleButton text="{i18n>tabMap}" type="Transparent"
+				<ToggleButton id="menu6" text="{i18n>tabMap}" type="Transparent"
 					press="navToMap" />
-				<ToggleButton text="{i18n>tabDailyRoutine}" type="Transparent"
+				<ToggleButton id="menu7" text="{i18n>tabDailyRoutine}" type="Transparent"
 					press="navToRoutine" />
-					<ToggleButton text="{i18n>tabTrust}" type="Transparent"
+				<ToggleButton id="menu8" text="{i18n>tabTrust}" type="Transparent"
 					press="navToTrust" />
 
 

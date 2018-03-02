@@ -7,16 +7,12 @@
 			<items>
 				<core:HTML
 					content="&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; data-small-header=&quot;false&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot;&gt;Shri Anapanhalli Maha Lakshmi Temple&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;"></core:HTML>
-				<Link text="{i18n>mapNavTxt}" class="sapUiSmallMarginTop"
-					emphasized="true"
-					href="https://www.google.co.in/maps/dir/Tumkur,+Karnataka,+India/Anupanhalli+Mahalaxmi+Temple,+Tumakuru,+Karnataka+572122,+India/@13.2676425,77.0468044,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3bb02c3b632e23b9:0xe15fb239e9d737bb!2m2!1d77.1139984!2d13.3391677!1m5!1m1!1s0x3bafd5ecef815e9d:0xb8df6dbb1b149f53!2m2!1d77.12351!2d13.200339!3e0" />
 			</items>
 		</VBox>
 
 		<List>
 			<items>
-				<ObjectListItem title="{i18n>addressLabel}" number="{i18n>emailLabel}"
-					numberUnit="anupanahallilakshmi@gmail.com">
+				<ObjectListItem title="{i18n>addressLabel}" number="9008061251">
 					<attributes>
 						<ObjectAttribute text="{i18n>addressTxt1}" />
 						<ObjectAttribute text="{i18n>addressTxt2}" />
@@ -24,33 +20,16 @@
 					</attributes>
 				</ObjectListItem>
 
-				<ObjectListItem title="{i18n>railHeaderTxt}" number="{i18n>townHeaderTxt}"
-					numberUnit="{i18n>townTxt}">
-					<attributes>
-						<ObjectAttribute text="{i18n>railTxt1}" />
-						<ObjectAttribute text="{i18n>railTxt2}" />
-						<ObjectAttribute text="{i18n>addressTxt3}" />
-					</attributes>
+				<ObjectListItem numberUnit="{i18n>emailLabel}" number="anupanahallilakshmi@gmail.com" />
+
+				<ObjectListItem title="{i18n>roleTxt1}"
+					number="{i18n>trustHeadPersName}">
 				</ObjectListItem>
 
-				<ObjectListItem title="{i18n>trustMemberLabel}"
-					number="{i18n>roleTxt1}" numberUnit="{i18n>roleLabel}">
-					<attributes>
-						<ObjectAttribute text="{i18n>trustHeadPersName}" />
-					</attributes>
+				<ObjectListItem title="{i18n>roleTxt2}" number="{i18n>archakaPersName}">
 				</ObjectListItem>
 
-				<ObjectListItem title="{i18n>archakaruLabel}" number="{i18n>roleTxt2}"
-					numberUnit="9008061251">
-					<attributes>
-						<ObjectAttribute text="{i18n>archakaPersName}" />
-					</attributes>
-				</ObjectListItem>
-
-				<ObjectListItem title="{i18n>websiteLabel}">
-					<attributes>
-						<ObjectAttribute text="{i18n>websitePersName}" />
-					</attributes>
+				<ObjectListItem numberUnit="{i18n>websiteLabel}" number="{i18n>websitePersName}">
 				</ObjectListItem>
 
 			</items>
