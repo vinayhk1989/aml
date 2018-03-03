@@ -1,71 +1,62 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m" 
-	xmlns:core="sap.ui.core">
-	<ScrollContainer
-		height="calc(100% - 10em)"
-		horizontal="false"
-		vertical="true">
-		<HBox>
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
+		xmlns:l="sap.ui.layout" vertical="true">
+
+
+		<VBox class="sapUiSmallMargin">
+				<Text text="{i18n>trustName}"
+					class="amlTrustHeading"></Text>
+				<Text text="{i18n>addressTxt2}"></Text>
+				<Text text="{i18n>addressTxt3}"></Text>
 				<Image src="images/jagadish.png" decorative="false" width="150px"
-					height="150px" densityAware="false" class="sapUiSmallMargin">
+					height="150px" densityAware="false">
 				</Image>
-			</HBox>
-	<List>
-		<items>
-		<ObjectListItem
-				title="H K Jagadish"
-				number="President">
-			</ObjectListItem>
-			
-			<ObjectListItem
-				title="C Krishna Murthy"
-				number="Chairman">
-			</ObjectListItem>
-			
-			<ObjectListItem
-				title="A Hanumantha Raju"
-				number="Vice President">
-			</ObjectListItem>
-			
-			<ObjectListItem
-				title="K V Maruthi"
-				number="Secretary">
-			</ObjectListItem>
-			
-			<ObjectListItem
-				title="G Bylanjeneya"
-				number="Joint Secretary">
-			</ObjectListItem>
-			
-			<ObjectListItem
-				title="Gopal Krishna"
-				number="Accountant">
-			</ObjectListItem>
-			
-			<ObjectListItem
-				title="H M Hanumanthe Gowda"
-				number="Group Secretary">
-			</ObjectListItem>
-			
-			<ObjectListItem
-				title="Other Members">
+		</VBox>
+
+		<List>
+			<items>
+				<ObjectListItem title="{i18n>presidentPersonName}"  number="{i18n>president}">
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>chairmanPersonName}" number="{i18n>chairman}">
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>vicePresidentPersonName}" number="{i18n>vicePresident}">
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>secretaryPersonName}" number="{i18n>secretary}">
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>jointSecretaryPersonName}" number="{i18n>jointSecretary}">
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>accountantPersonName}" number="{i18n>accountant}">
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>groupSecretaryPersonName}">
 				<attributes>
-					<ObjectAttribute text="Suvarnamma" />
-					<ObjectAttribute text="S Ganga Hanumaiah" />
-					<ObjectAttribute text="H K Malanna" />
-					<ObjectAttribute text="T M Rajannna" />
-					<ObjectAttribute text="Ramanjeneya" />
-					<ObjectAttribute text="K V Raghu" />
-					<ObjectAttribute text="Lakshmi Kantha" />
-					<ObjectAttribute text="H C Lakshmi Pathi" />
-					<ObjectAttribute text="Malleshappa" />
-					<ObjectAttribute text="Manjula Ashwathaya" />
-					<ObjectAttribute text="R Manjunatha" />
-					<ObjectAttribute text="Lakshmi Narayana" />
-				</attributes>
-			</ObjectListItem>
-				
-		</items>
-	</List>
-</ScrollContainer>
+						<ObjectAttribute text="{i18n>groupSecretary}" />
+						</attributes>
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>otherMembers}">
+					<attributes>
+						<ObjectAttribute text="{i18n>otherMember1}" />
+						<ObjectAttribute text="{i18n>otherMember2}" />
+						<ObjectAttribute text="{i18n>otherMember3}" />
+						<ObjectAttribute text="{i18n>otherMember4}" />
+						<ObjectAttribute text="{i18n>otherMember5}" />
+						<ObjectAttribute text="{i18n>otherMember6}" />
+						<ObjectAttribute text="{i18n>otherMember7}" />
+						<ObjectAttribute text="{i18n>otherMember8}" />
+						<ObjectAttribute text="{i18n>otherMember9}" />
+						<ObjectAttribute text="{i18n>otherMember10}" />
+						<ObjectAttribute text="{i18n>otherMember11}" />
+						<ObjectAttribute text="{i18n>otherMember12}" />
+					</attributes>
+				</ObjectListItem>
+
+			</items>
+		</List>
+	</ScrollContainer>
 </mvc:View>
