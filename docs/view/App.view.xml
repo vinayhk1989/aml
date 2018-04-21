@@ -42,10 +42,10 @@
 
 			</OverflowToolbar>
 
-<MessageStrip text="{i18n>utsavaMessage}" type="Success"
-		enableFormattedText="true" showIcon="false" showCloseButton="true"
-		class="sapUiMediumMarginBeginEnd sapUiSmallMarginTop">
-	</MessageStrip>
+<!-- <MessageStrip text="{i18n>utsavaMessage}" type="Success" -->
+<!-- 		enableFormattedText="true" showIcon="false" showCloseButton="true" -->
+<!-- 		class="sapUiMediumMarginBeginEnd sapUiSmallMarginTop"> -->
+<!-- 	</MessageStrip> -->
 			<NavContainer id="rootControl" />
 		</content>
 	</Page>
