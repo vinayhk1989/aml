@@ -1,46 +1,177 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" 
-xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"
- xmlns:f="sap.ui.layout.form">
- <ScrollContainer
-		height="calc(100% - 10em)"
-		horizontal="false"
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
 		vertical="true">
-	<f:Form editable="false">
-		<f:layout>
-			<f:ResponsiveGridLayout labelSpanXL="4" labelSpanL="4" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0"
-				emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false"/>
-		</f:layout>
-		<f:formContainers>
-			<f:FormContainer title="{i18n>accountDetailTxt}">
-				<f:formElements>
-					<f:FormElement label="{i18n>bankNameTxt}">
-						<f:fields>
-							<Text text="{i18n>bankAddress}"/>
-						</f:fields>
-					</f:FormElement>
-					<f:FormElement label="{i18n>bankAccountName}">
-						<f:fields>
-							<Text text="SRI MAHALAKSHMI TEMPLU TRU"/>
-						</f:fields>
-					</f:FormElement>
-					<f:FormElement label="{i18n>bankAccountNumber}">
-						<f:fields>
-							<Text text="54053471658"/>
-						</f:fields>
-					</f:FormElement>
-					<f:FormElement label="{i18n>IFSCCode}">
-						<f:fields>
-							<Text text="SBIN0040238"/>
-						</f:fields>
-					</f:FormElement>
-				</f:formElements>
-			</f:FormContainer>
-		</f:formContainers>
-	</f:Form>
-	<VBox class="sapUiSmallMargin">
-		<Text text="{i18n>noteTxt1}"></Text>
-		<Text text="{i18n>noteSubTxt}" class="sapUiSmallMarginTop"></Text>
-		<Text text="{i18n>noteTxt2}" class="sapUiSmallMarginTop"></Text>
-	</VBox>
+		<f:Form editable="false">
+			<f:layout>
+				<f:ResponsiveGridLayout labelSpanXL="4"
+					labelSpanL="4" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false"
+					emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0"
+					columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false" />
+			</f:layout>
+			<f:formContainers>
+				<f:FormContainer title="{i18n>accountDetailTxt}">
+					<f:formElements>
+						<f:FormElement label="{i18n>bankNameTxt}">
+							<f:fields>
+								<Text text="{i18n>bankAddress}" />
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>bankAccountName}">
+							<f:fields>
+								<Text text="SRI MAHALAKSHMI TEMPLU TRU" />
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>bankAccountNumber}">
+							<f:fields>
+								<Text text="54053471658" />
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>IFSCCode}">
+							<f:fields>
+								<Text text="SBIN0040238" />
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+			</f:formContainers>
+		</f:Form>
+		<VBox class="sapUiSmallMargin">
+			<Text text="{i18n>noteTxt1}"></Text>
+			<Text text="{i18n>noteSubTxt}" class="sapUiSmallMarginTop"></Text>
+			<Text text="{i18n>noteTxt2}" class="sapUiSmallMarginTop"></Text>
+		</VBox>
+
+		<l:Grid hSpacing="2" height="100%">
+			<l:content>
+				<Image src="images/temple2.png" decorative="false" width="250px"
+					height="300px" densityAware="false">
+					<detailBox>
+						<LightBox>
+							<LightBoxItem imageSrc="images/temple2.png"
+								alt="Utsava photo could not loaded" title="Temple photo 2">
+							</LightBoxItem>
+						</LightBox>
+					</detailBox>
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+
+				<Image src="images/kalyan_mantap_1.png" decorative="false"
+					width="250px" height="300px" densityAware="false">
+					<detailBox>
+						<LightBox>
+							<LightBoxItem imageSrc="images/kalyan_mantap_1.png"
+								alt="Utsava photo could not loaded" title="kalyana mantapa 1">
+							</LightBoxItem>
+						</LightBox>
+					</detailBox>
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+
+				<Image src="images/kalyan_mantap_2.png" decorative="false"
+					width="250px" height="300px" densityAware="false">
+					<detailBox>
+						<LightBox>
+							<LightBoxItem imageSrc="images/kalyan_mantap_2.png"
+								alt="Utsava photo could not loaded" title="kalyana mantapa 2">
+							</LightBoxItem>
+						</LightBox>
+					</detailBox>
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+
+				<Image src="images/kalyan_mantap_3.png" decorative="false"
+					width="250px" height="300px" densityAware="false">
+					<detailBox>
+						<LightBox>
+							<LightBoxItem imageSrc="images/kalyan_mantap_3.png"
+								alt="Utsava photo could not loaded" title="kalyana mantapa 3">
+							</LightBoxItem>
+						</LightBox>
+					</detailBox>
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+
+				<Image src="images/temple1.png" decorative="false" width="250px"
+					height="300px" densityAware="false">
+					<detailBox>
+						<LightBox>
+							<LightBoxItem imageSrc="images/temple1.png"
+								alt="Utsava photo could not loaded" title="Temple photo 1">
+							</LightBoxItem>
+						</LightBox>
+					</detailBox>
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+
+
+				<Image src="images/kalyani.png" decorative="false" width="250px"
+					height="300px" densityAware="false">
+					<detailBox>
+						<LightBox>
+							<LightBoxItem imageSrc="images/kalyani.png"
+								alt="Utsava photo could not loaded" title="kalyani">
+							</LightBoxItem>
+						</LightBox>
+					</detailBox>
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+
+				<Image src="images/subramanya.png" decorative="false" width="250px"
+					height="300px" densityAware="false">
+					<detailBox>
+						<LightBox>
+							<LightBoxItem imageSrc="images/subramanya.png"
+								alt="Utsava photo could not loaded" title="subramanya">
+							</LightBoxItem>
+						</LightBox>
+					</detailBox>
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+
+				<Image src="images/veerabadra.png" decorative="false" width="250px"
+					height="300px" densityAware="false">
+					<detailBox>
+						<LightBox>
+							<LightBoxItem imageSrc="images/veerabadra.png"
+								alt="Utsava photo could not loaded" title="veerabadra">
+							</LightBoxItem>
+						</LightBox>
+					</detailBox>
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+
+				<Image src="images/veerabadra_gudi.png" decorative="false"
+					width="250px" height="300px" densityAware="false">
+					<detailBox>
+						<LightBox>
+							<LightBoxItem imageSrc="images/veerabadra_gudi.png"
+								alt="Utsava photo could not loaded" title="veerabadra">
+							</LightBoxItem>
+						</LightBox>
+					</detailBox>
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+
+			</l:content>
+		</l:Grid>
 	</ScrollContainer>
 </mvc:View>
