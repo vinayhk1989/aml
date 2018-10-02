@@ -2,7 +2,7 @@
 	xmlns:core="sap.ui.core">
 	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
 		vertical="true">
-		<List>
+		<!-- <List>
 			<items>
 				<ObjectListItem title="{i18n>utsavaMurthyReg}"
 					number="₹2,100">
@@ -15,8 +15,8 @@
 						<ObjectAttribute text="{i18n>utsavaTempleSubTxt}" />
 					</attributes>
 				</ObjectListItem>
-			</items>
-		</List>
+			</items> 
+		</List> -->
 		<Panel expandable="true" expanded="true" headerText="2018"
 			width="auto">
 			<content>
@@ -71,7 +71,7 @@
 			</content>
 		</Panel>
 
-		<Panel expandable="true" expanded="false" headerText="2017"
+		<Panel expandable="true" expanded="true" headerText="2017"
 			width="auto">
 			<content>
 
