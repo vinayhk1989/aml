@@ -17,10 +17,10 @@
 						<ObjectAttribute text="{i18n>addressTxt1}" />
 						<ObjectAttribute text="{i18n>addressTxt2}" />
 						<ObjectAttribute text="{i18n>addressTxt3}" />
+						<ObjectAttribute text="{i18n>emailLabel} : anupanahallilakshmi@gmail.com" />
 					</attributes>
 				</ObjectListItem>
 
-				<ObjectListItem numberUnit="{i18n>emailLabel}" number="anupanahallilakshmi@gmail.com" />
 
 				<ObjectListItem title="{i18n>roleTxt1}"
 					number="{i18n>trustHeadPersName}">
@@ -29,7 +29,7 @@
 				<ObjectListItem title="{i18n>roleTxt2}" number="{i18n>archakaPersName}">
 				</ObjectListItem>
 
-				<ObjectListItem numberUnit="{i18n>websiteLabel}" number="{i18n>websitePersName}">
+				<ObjectListItem title="{i18n>websiteLabel}" number="{i18n>websitePersName}">
 				</ObjectListItem>
 
 			</items>
