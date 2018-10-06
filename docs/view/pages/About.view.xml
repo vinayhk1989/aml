@@ -85,12 +85,6 @@
 
 			</l:content>
 		</l:Grid>
-		<VBox>
-			<Image src="images/august_2018_4.jpg" decorative="false" width="calc(100%)"
-			densityAware="false" class="sapUiTinyMargin" />
-		<Image src="images/august_2018_3.jpg" decorative="false" width="calc(100%)"
-			densityAware="false" class="sapUiTinyMargin" />
-		</VBox>
 
 	</ScrollContainer>
 	<!-- <Image src="images/AMlakshmi.png" densityAware="false" width="25%"/> -->
