@@ -78,8 +78,12 @@
 				"viewType": "XML"
 			},
 			"routes": [{
-				"name": "about",
+				"name": "home",
 				"pattern": "",
+				"target": "home"
+			}, {
+				"name": "about",
+				"pattern": "about",
 				"target": "about"
 			}, {
 				"name": "contact",
@@ -112,6 +116,9 @@
 				"target": "trust"
 			}],
 			"targets": {
+				"home": {
+					"viewName": "Home"
+				},
 				"about": {
 					"viewName": "About"
 				},

@@ -14,29 +14,32 @@ sap.ui.define([
 			var sPattern = oEvent.getParameter("name");
 			
 			switch (sPattern) {
-			case "about":
+			case "home":
 				this.highlightMenu(this.createId("menu1"));
 				break;
-			case "utsava":
+			case "about":
 				this.highlightMenu(this.createId("menu2"));
 				break;
-			case "contact":
+			case "utsava":
 				this.highlightMenu(this.createId("menu3"));
 				break;
-			case "ekanike":
+			case "contact":
 				this.highlightMenu(this.createId("menu4"));
 				break;
-			case "seva":
+			case "ekanike":
 				this.highlightMenu(this.createId("menu5"));
 				break;
-			case "map":
+			case "seva":
 				this.highlightMenu(this.createId("menu6"));
 				break;
-			case "routine":
+			case "map":
 				this.highlightMenu(this.createId("menu7"));
 				break;
-			case "trust":
+			case "routine":
 				this.highlightMenu(this.createId("menu8"));
+				break;
+			case "trust":
+				this.highlightMenu(this.createId("menu9"));
 				break;
 
 			default:
@@ -65,6 +68,11 @@ sap.ui.define([
 			that.pressDialog.open();
 		},
 
+		navToHome: function(oEvent) {
+			this.oRouter.navTo("home");
+			this.highlightMenu(oEvent.getSource().getId());
+		},
+		
 		navToAbout: function(oEvent) {
 			this.oRouter.navTo("about");
 			this.highlightMenu(oEvent.getSource().getId());
