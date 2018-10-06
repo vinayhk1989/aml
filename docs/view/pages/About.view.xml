@@ -1,90 +1,97 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="com.aml.controller.App"
-	xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
-	<ScrollContainer
-		height="calc(100% - 10em)"
-		horizontal="false"
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
+	controllerName="com.aml.controller.App" xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
 		vertical="true">
-					<l:Grid hSpacing="2">
-		<l:content>
-			<Image src="images/april_2018_1.jpg" width="100%" height="100%" class="sapUiSmallMarginTop">
-				<layoutData>
-					<l:GridData span="XL3 L3 M6 S12" />
-				</layoutData>
-			</Image>
-			<VBox class="sapUiSmallMarginTop">
-				<Text class="sapUiSmallMarginBeginEnd" text="{i18n>descAboutSec1}" />
-				<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
-					text="{i18n>descAboutSec2}" />
-				<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
-					text="{i18n>descAboutSec3}" />
-				<layoutData>
-					<l:GridData span="XL5 L5 M6 S12" />
-				</layoutData>
-			</VBox>
-			<VBox>
-			<SlideTile class="sapUiTinyMarginBegin sapUiTinyMarginTop">
-					<tiles>
-						<GenericTile backgroundImage="images/kmp_6.jpg"
-							frameType="TwoByOne">
-							<tileContent>
-								<TileContent>
-									<content>
-										<NewsContent
-											contentText="{i18n>messageTxt3}"
-											subheader="{i18n>messageSubTxt1}"></NewsContent>
-									</content>
-								</TileContent>
-							</tileContent>
-						</GenericTile>
-						<GenericTile backgroundImage="images/kmp_5.jpg"
-							frameType="TwoByOne" press="pressOnVratha">
-							<tileContent>
-								<TileContent>
-									<content>
-										<NewsContent contentText="{i18n>messageTxt4}"
-											subheader="{i18n>messageSubTxt1}"></NewsContent>
-									</content>
-								</TileContent>
-							</tileContent>
-						</GenericTile>
-					</tiles>
-				</SlideTile>
-				<SlideTile class="sapUiTinyMarginBegin sapUiTinyMarginTop">
-					<tiles>
-						<GenericTile backgroundImage="images/kmp_3.jpg"
-							frameType="TwoByOne">
-							<tileContent>
-								<TileContent>
-									<content>
-										<NewsContent
-											contentText="{i18n>messageTxt1}"
-											subheader="{i18n>messageSubTxt1}"></NewsContent>
-									</content>
-								</TileContent>
-							</tileContent>
-						</GenericTile>
-						<GenericTile backgroundImage="images/kmp_4.jpg"
-							frameType="TwoByOne">
-							<tileContent>
-								<TileContent>
-									<content>
-										<NewsContent
-											contentText="{i18n>messageTxt2}"
-											subheader="{i18n>messageSubTxt1}"></NewsContent>
-									</content>
-								</TileContent>
-							</tileContent>
-						</GenericTile>
-					</tiles>
-				</SlideTile>
+		<l:Grid hSpacing="2">
+			<l:content>
+				<Image src="images/april_2018_1.jpg" width="100%" height="100%"
+					class="sapUiSmallMarginTop">
+					<layoutData>
+						<l:GridData span="XL3 L3 M6 S12" />
+					</layoutData>
+				</Image>
+				<VBox class="sapUiSmallMarginTop">
+					<Text class="sapUiSmallMarginBeginEnd" text="{i18n>descAboutSec1}" />
+					<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
+						text="{i18n>descAboutSec2}" />
+					<Text class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop"
+						text="{i18n>descAboutSec3}" />
+					<layoutData>
+						<l:GridData span="XL5 L5 M6 S12" />
+					</layoutData>
+				</VBox>
+				<VBox>
+					<SlideTile class="sapUiTinyMarginBegin sapUiTinyMarginTop">
+						<tiles>
+							<GenericTile backgroundImage="images/kmp_6.jpg"
+								frameType="TwoByOne">
+								<tileContent>
+									<TileContent>
+										<content>
+											<NewsContent contentText="{i18n>messageTxt3}"
+												subheader="{i18n>messageSubTxt1}"></NewsContent>
+										</content>
+									</TileContent>
+								</tileContent>
+							</GenericTile>
+							<GenericTile backgroundImage="images/kmp_5.jpg"
+								frameType="TwoByOne" press="pressOnVratha">
+								<tileContent>
+									<TileContent>
+										<content>
+											<NewsContent contentText="{i18n>messageTxt4}"
+												subheader="{i18n>messageSubTxt1}"></NewsContent>
+										</content>
+									</TileContent>
+								</tileContent>
+							</GenericTile>
+						</tiles>
+					</SlideTile>
+					<SlideTile class="sapUiTinyMarginBegin sapUiTinyMarginTop">
+						<tiles>
+							<GenericTile backgroundImage="images/kmp_3.jpg"
+								frameType="TwoByOne">
+								<tileContent>
+									<TileContent>
+										<content>
+											<NewsContent contentText="{i18n>messageTxt1}"
+												subheader="{i18n>messageSubTxt1}"></NewsContent>
+										</content>
+									</TileContent>
+								</tileContent>
+							</GenericTile>
+							<GenericTile backgroundImage="images/kmp_4.jpg"
+								frameType="TwoByOne">
+								<tileContent>
+									<TileContent>
+										<content>
+											<NewsContent contentText="{i18n>messageTxt2}"
+												subheader="{i18n>messageSubTxt1}"></NewsContent>
+										</content>
+									</TileContent>
+								</tileContent>
+							</GenericTile>
+						</tiles>
+					</SlideTile>
+					
 				
-				<layoutData>
-					<l:GridData span="XL4 L4 M6 S12" />
-				</layoutData>
-			</VBox>
-		</l:content>
-	</l:Grid>
-			
+
+					<layoutData>
+						<l:GridData span="XL4 L4 M6 S12" />
+					</layoutData>
+				</VBox>
+
+
+			</l:content>
+		</l:Grid>
+		<VBox>
+			<Image src="images/august_2018_4.jpg" decorative="false" width="calc(100%)"
+			densityAware="false" class="sapUiTinyMargin" />
+		<Image src="images/august_2018_3.jpg" decorative="false" width="calc(100%)"
+			densityAware="false" class="sapUiTinyMargin" />
+		</VBox>
+
 	</ScrollContainer>
 	<!-- <Image src="images/AMlakshmi.png" densityAware="false" width="25%"/> -->
 </mvc:View>

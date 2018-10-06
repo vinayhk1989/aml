@@ -2,22 +2,41 @@
 	xmlns:core="sap.ui.core">
 	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
 		vertical="true">
-		<!-- <List>
-			<items>
-				<ObjectListItem title="{i18n>utsavaMurthyReg}"
-					number="₹2,100">
-					<attributes>
-						<ObjectAttribute text="{i18n>utsavaMurthyRegSubTxt}" />
-					</attributes>
-				</ObjectListItem>
-				<ObjectListItem title="{i18n>utsavaTemple}" number="₹10,000">
-					<attributes>
-						<ObjectAttribute text="{i18n>utsavaTempleSubTxt}" />
-					</attributes>
-				</ObjectListItem>
-			</items> 
-		</List> -->
-		<Panel expandable="true" expanded="true" headerText="2018"
+		<!-- <List> <items> <ObjectListItem title="{i18n>utsavaMurthyReg}" number="₹2,100"> 
+			<attributes> <ObjectAttribute text="{i18n>utsavaMurthyRegSubTxt}" /> </attributes> 
+			</ObjectListItem> <ObjectListItem title="{i18n>utsavaTemple}" number="₹10,000"> 
+			<attributes> <ObjectAttribute text="{i18n>utsavaTempleSubTxt}" /> </attributes> 
+			</ObjectListItem> </items> </List> -->
+
+		<Image src="images/august_2018_1.jpg" decorative="false" width="400px"
+			height="300px" densityAware="false" class="sapUiTinyMargin">
+			<detailBox>
+				<LightBox>
+					<LightBoxItem imageSrc="images/august_2018_1.jpg" alt="Utsava photo could not loaded"
+						title="Utsava 2018">
+					</LightBoxItem>
+				</LightBox>
+			</detailBox>
+			<layoutData>
+				<l:GridData span="XL3 L3 M6 S12" />
+			</layoutData>
+		</Image>
+		
+		<Image src="images/august_2018_2.jpg" decorative="false" width="400px"
+			height="300px" densityAware="false" class="sapUiTinyMargin">
+			<detailBox>
+				<LightBox>
+					<LightBoxItem imageSrc="images/august_2018_2.jpg" alt="Utsava photo could not loaded"
+						title="Utsava 2018">
+					</LightBoxItem>
+				</LightBox>
+			</detailBox>
+			<layoutData>
+				<l:GridData span="XL3 L3 M6 S12" />
+			</layoutData>
+		</Image>
+
+		<Panel expandable="true" expanded="false" headerText="2018"
 			width="auto">
 			<content>
 
@@ -71,7 +90,7 @@
 			</content>
 		</Panel>
 
-		<Panel expandable="true" expanded="true" headerText="2017"
+		<Panel expandable="true" expanded="false" headerText="2017"
 			width="auto">
 			<content>
 
@@ -199,6 +218,6 @@
 				</l:Grid>
 			</content>
 		</Panel>
-		
+
 	</ScrollContainer>
 </mvc:View>
