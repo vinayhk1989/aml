@@ -114,6 +114,10 @@
 				"name": "trust",
 				"pattern": "trust",
 				"target": "trust"
+			}, {
+				"name": "mantra",
+				"pattern": "mantra",
+				"target": "mantra"
 			}],
 			"targets": {
 				"home": {
@@ -142,6 +146,9 @@
 				},
 				"trust": {
 					"viewName": "Trust"
+				},
+				"mantra": {
+					"viewName": "Mantra"
 				}
 			}
 		}
