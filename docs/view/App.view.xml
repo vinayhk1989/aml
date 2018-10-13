@@ -25,29 +25,31 @@
 				<ToggleButton id="menu1" icon="sap-icon://home" type="Transparent"
 					press="navToHome" pressed="true" />
 				<ToggleButton id="menu2" text="{i18n>tabAbout}" type="Transparent"
-					press="navToAbout"/>
+					press="navToAbout" />
 				<ToggleButton id="menu3" text="{i18n>tabUtsava}" type="Transparent"
 					press="navToUtsava" />
-				<ToggleButton id="menu4" text="{i18n>tabContactUs}" type="Transparent"
-					press="navToContact" />
+				<ToggleButton id="menu10" text="{i18n>mahalakshmi_mantra}"
+					type="Transparent" press="navToMantra" />
+
 				<ToggleButton id="menu5" text="{i18n>tabEKanike}" type="Transparent"
 					press="navToKanike" />
 				<ToggleButton id="menu6" text="{i18n>tabSeva}" type="Transparent"
 					press="navToSeva" />
 				<ToggleButton id="menu7" text="{i18n>tabMap}" type="Transparent"
 					press="navToMap" />
-				<ToggleButton id="menu8" text="{i18n>tabDailyRoutine}" type="Transparent"
-					press="navToRoutine" />
+				<ToggleButton id="menu8" text="{i18n>tabDailyRoutine}"
+					type="Transparent" press="navToRoutine" />
 				<ToggleButton id="menu9" text="{i18n>tabTrust}" type="Transparent"
 					press="navToTrust" />
-
+				<ToggleButton id="menu4" text="{i18n>tabContactUs}"
+					type="Transparent" press="navToContact" />
 
 			</OverflowToolbar>
 
-<!-- <MessageStrip text="{i18n>utsavaMessage}" type="Success" -->
-<!-- 		enableFormattedText="true" showIcon="false" showCloseButton="true" -->
-<!-- 		class="sapUiMediumMarginBeginEnd sapUiSmallMarginTop"> -->
-<!-- 	</MessageStrip> -->
+			<!-- <MessageStrip text="{i18n>utsavaMessage}" type="Success" -->
+			<!-- enableFormattedText="true" showIcon="false" showCloseButton="true" -->
+			<!-- class="sapUiMediumMarginBeginEnd sapUiSmallMarginTop"> -->
+			<!-- </MessageStrip> -->
 			<NavContainer id="rootControl" />
 		</content>
 	</Page>

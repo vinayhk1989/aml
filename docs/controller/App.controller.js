@@ -41,6 +41,9 @@ sap.ui.define([
 			case "trust":
 				this.highlightMenu(this.createId("menu9"));
 				break;
+			case "mantra":
+				this.highlightMenu(this.createId("menu10"));
+				break;
 
 			default:
 				break;
@@ -104,6 +107,11 @@ sap.ui.define([
 		
 		navToTrust: function(oEvent) {
 			this.oRouter.navTo("trust");
+			this.highlightMenu(oEvent.getSource().getId());
+		},
+		
+		navToMantra: function(oEvent) {
+			this.oRouter.navTo("mantra");
 			this.highlightMenu(oEvent.getSource().getId());
 		},
 
