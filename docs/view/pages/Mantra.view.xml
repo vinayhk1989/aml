@@ -6,49 +6,49 @@
 		<Image src="images/namaste.jpg" decorative="false" width="calc(100%)"
 			densityAware="false" class="sapUiTinyMargin" />
 			
-			<Title level="H3" text="{i18n>mantra_phrase1}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase1}" />
 			<Title level="H3" text="{i18n>mantra_phrase1_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase2}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase2}" />
 			<Title level="H3" text="{i18n>mantra_phrase2_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase3}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase3}" />
 			<Title level="H3" text="{i18n>mantra_phrase3_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase4}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase4}" />
 			<Title level="H3" text="{i18n>mantra_phrase4_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase5}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase5}" />
 			<Title level="H3" text="{i18n>mantra_phrase5_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase6}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase6}" />
 			<Title level="H3" text="{i18n>mantra_phrase6_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase7}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase7}" />
 			<Title level="H3" text="{i18n>mantra_phrase7_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase8}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase8}" />
 			<Title level="H3" text="{i18n>mantra_phrase8_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase9}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase9}"  />
 			<Title level="H3" text="{i18n>mantra_phrase9_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase10}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase10}"  />
 			<Title level="H3" text="{i18n>mantra_phrase10_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
-			<Title level="H3" text="{i18n>mantra_phrase11}" class="sapUiMediumMarginBeginEnd" />
+			<Title level="H3" text="{i18n>mantra_phrase11}"  />
 			<Title level="H3" text="{i18n>mantra_phrase11_1}"
-				class="sapUiMediumMarginBeginEnd sapUiTinyMarginBottom" />
+				class=" sapUiTinyMarginBottom" />
 
 			<Title level="H3" text="-----------------X------------X----------"
 				class="sapUiMediumMarginBeginEnd" />
