@@ -8,9 +8,9 @@
 					class="amlTrustHeading"></Text>
 				<Text text="{i18n>addressTxt2}"></Text>
 				<Text text="{i18n>addressTxt3}"></Text>
-				<Image src="images/jagadish.png" decorative="false" width="150px"
+				<!-- <Image src="images/jagadish.png" decorative="false" width="150px"
 					height="150px" densityAware="false">
-				</Image>
+				</Image>-->
 		</VBox>
 
 		<List>
