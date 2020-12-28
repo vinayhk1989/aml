@@ -2,14 +2,14 @@
 	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
 	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
 		vertical="true">
-
+<!--
 		<VBox class="sapUiSmallMarginBegin">
 			<items>
 				<core:HTML
 					content="&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; data-small-header=&quot;false&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot;&gt;Shri Anapanhalli Maha Lakshmi Temple&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;"></core:HTML>
 			</items>
 		</VBox>
-
+-->
 		<List>
 			<items>
 				<ObjectListItem title="{i18n>addressLabel}" number="9008061251">
