@@ -14,7 +14,6 @@
 									<MenuItem id="dummy" text=" " />
 									<MenuItem id="kannada" text="{i18n>languageKannada}" />
 									<MenuItem id="english" text="{i18n>languageEnglish}" />
-									<MenuItem id="hindi" text="{i18n>languageHindi}" />
 								</items>
 							</Menu>
 						</menu>

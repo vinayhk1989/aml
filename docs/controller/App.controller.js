@@ -142,10 +142,6 @@ sap.ui.define([
 			case this.createId("english"):
 				sap.ui.getCore().getConfiguration().setLanguage("en");
 				break;
-			case this.createId("hindi"):
-				sap.ui.getCore().getConfiguration().setLanguage("hi");
-				break;
-
 			default:
 				sap.ui.getCore().getConfiguration().setLanguage("kn");
 			break;
