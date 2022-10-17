@@ -41,7 +41,7 @@
 			<Text text="{i18n>noteSubTxt}" class="sapUiSmallMarginTop"></Text>
 			<Text text="{i18n>noteTxt2}" class="sapUiSmallMarginTop"></Text>
 		</VBox>
-
+<!--
 		<l:Grid hSpacing="2" height="100%">
 			<l:content>
 				<Image src="images/temple2.png" decorative="false" width="250px"
@@ -172,6 +172,6 @@
 				</Image>
 
 			</l:content>
-		</l:Grid>
+		</l:Grid> -->
 	</ScrollContainer>
 </mvc:View>
